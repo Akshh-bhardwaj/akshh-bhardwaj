@@ -1,13 +1,18 @@
-<!-- Banner -->
+<!-- Banner: fallback badge-style plus suggestion to replace with custom image -->
 <p align="center">
-  <img src="https://i.ibb.co/f9NHS1m/github-banner.png" alt="Banner" />
+  <!-- Badge-style banner as reliable fallback -->
+  <img src="https://img.shields.io/badge/Hi%20👋%20I'm%20Akshit%20Sharma-C%20%7C%20DSA%20%26%20FullStack%20Dev-00BFFF?style=for-the-badge&logo=github" alt="Banner" />
+</p>
+<p align="center">
+  <!-- Optional: replace the above with your custom uploaded banner image like: -->
+  <!-- <img src="./assets/your-custom-banner.png" alt="Custom Banner" /> -->
 </p>
 
 <h1 align="center">Hi 👋, I'm Akshit Sharma</h1>
 <h3 align="center">C | DSA & Full Stack Developer 🚀</h3>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=25&pause=1000&color=00BFFF&center=true&vCenter=true&width=500&lines=Passionate+Coder;Love+to+Build+Cool+Things;Always+Learning+New+Tech" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=25&pause=1000&color=00BFFF&center=true&width=500&lines=Passionate+Coder;Love+to+Build+Cool+Things;Always+Learning+New+Tech" alt="Typing SVG" />
 </p>
 
 ---
@@ -23,9 +28,10 @@
 ### ⚡ Badges
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=akshh-bhardwaj&label=Profile%20Views&color=0e75b6&style=for-the-badge" alt="views" />
-  <img src="https://img.shields.io/github/followers/akshh-bhardwaj?label=Followers&style=for-the-badge" alt="followers" />
-  <img src="https://img.shields.io/github/stars/akshh-bhardwaj?label=Stars&style=for-the-badge" alt="stars" />
+  <img src="https://komarev.com/ghpvc/?username=akshh-bhardwaj&label=Profile%20Views&color=0e75b6&style=for-the-badge" alt="Profile views" />
+  <img src="https://img.shields.io/github/followers/akshh-bhardwaj?label=Followers&style=for-the-badge" alt="Followers" />
+  <img src="https://img.shields.io/github/stars/akshh-bhardwaj?label=Stars&style=for-the-badge" alt="Stars" />
+  <img src="https://img.shields.io/badge/Top%20Language-C-blue?style=for-the-badge&logo=c" alt="Top language" />
 </p>
 
 ---
@@ -47,7 +53,11 @@
 ### 🏆 GitHub Trophies
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=akshh-bhardwaj&theme=onedark&row=1&column=6&margin-w=10&margin-h=10" alt="trophies" />
+  <!-- Two themes for variety -->
+  <img src="https://github-profile-trophy.vercel.app/?username=akshh-bhardwaj&theme=onedark&row=1&column=6&margin-w=10&margin-h=10" alt="trophies onedark" />
+</p>
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=akshh-bhardwaj&theme=gruvbox&row=1&column=6&margin-w=10&margin-h=10" alt="trophies gruvbox" />
 </p>
 
 ---
@@ -55,15 +65,19 @@
 ### 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=akshh-bhardwaj&show_icons=true&theme=tokyonight" alt="stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=akshh-bhardwaj&show_icons=true&theme=tokyonight" alt="GitHub stats" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.vercel.app/?user=akshh-bhardwaj&theme=tokyonight" alt="streak" />
+  <!-- Streak: if it fails, fallback note below -->
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=akshh-bhardwaj&theme=tokyonight" alt="GitHub streak" />
+</p>
+<p align="center">
+  *If the streak graphic doesn't render, you can view your current streak on your GitHub profile directly.*  
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=akshh-bhardwaj&layout=compact&theme=tokyonight" alt="langs" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=akshh-bhardwaj&layout=compact&theme=tokyonight" alt="Top languages" />
 </p>
 
 ---
@@ -85,19 +99,21 @@
 
 <p align="center">
   <a href="https://www.linkedin.com/in/akshit-sharma-790601189/">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" />
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   <a href="https://leetcode.com/yourprofile">
-    <img src="https://img.shields.io/badge/LeetCode-FFA116.svg?style=for-the-badge&logo=leetcode&logoColor=black" />
+    <img src="https://img.shields.io/badge/LeetCode-FFA116.svg?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" />
   </a>
   <a href="mailto:akshubhardwaj231@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836.svg?style=for-the-badge&logo=gmail&logoColor=white" />
+    <img src="https://img.shields.io/badge/Gmail-D14836.svg?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
   </a>
 </p>
 
 ---
 
-<!-- Waving hand GIF -->
+### 👋 Bye (or rather, Hi again!)
+
 <p align="center">
-  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="80px">
+  <!-- Animated character saying hi -->
+  <img src="https://media.giphy.com/media/3o6ZsY9wP6KD0xgq2A/giphy.gif" width="120" alt="Waving hi" />
 </p>
