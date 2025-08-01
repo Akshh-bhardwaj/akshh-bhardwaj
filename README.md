@@ -68,7 +68,7 @@
   <img src="https://streak-stats.demolab.com?user=akshh-bhardwaj&theme=tokyonight" alt="GitHub streak" />
 </p>
 <p align="center">
-  *If the streak graphic doesn’t render, refresh or temporarily remove it; you can always see your streak on your GitHub profile directly.*  
+ 
 </p>
 
 <p align="center">
