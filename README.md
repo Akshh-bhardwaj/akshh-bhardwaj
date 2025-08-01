@@ -1,21 +1,36 @@
+<!-- Banner -->
+<p align="center">
+  <img src="https://i.ibb.co/f9NHS1m/github-banner.png" alt="Banner" />
+</p>
+
 <h1 align="center">Hi 👋, I'm Akshit Sharma</h1>
 <h3 align="center">C | DSA & Full Stack Developer 🚀</h3>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=25&pause=1000&color=00BFFF&width=500&lines=Passionate+Coder;Love+to+Build+Cool+Things;Always+Learning+New+Tech" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=25&pause=1000&color=00BFFF&center=true&vCenter=true&width=500&lines=Passionate+Coder;Love+to+Build+Cool+Things;Always+Learning+New+Tech" alt="Typing SVG" />
 </p>
 
 ---
 
-🌟 **About Me**
+### 🌟 About Me
 
-- 🌱 I’m working on **Full Stack Development** and **Data Science**  
+- 🌱 Currently learning **Full Stack Development** and **Data Science**  
 - 💬 Ask me about **C programming**, **DSA**, and **GitHub Projects**  
-- 📫 How to reach me: **akshubhardwaj231@gmail.com**  
+- 📫 Reach me at **akshubhardwaj231@gmail.com**  
 
 ---
 
-⚡ **Tech Stack**
+### ⚡ Badges
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=akshh-bhardwaj&label=Profile%20Views&color=0e75b6&style=for-the-badge" alt="views" />
+  <img src="https://img.shields.io/github/followers/akshh-bhardwaj?label=Followers&style=for-the-badge" alt="followers" />
+  <img src="https://img.shields.io/github/stars/akshh-bhardwaj?label=Stars&style=for-the-badge" alt="stars" />
+</p>
+
+---
+
+### 💻 Tech Stack
 
 ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB.svg?style=for-the-badge&logo=python&logoColor=white)
@@ -29,7 +44,7 @@
 
 ---
 
-🏆 **GitHub Trophies**
+### 🏆 GitHub Trophies
 
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=akshh-bhardwaj&theme=onedark&row=1&column=6&margin-w=10&margin-h=10" alt="trophies" />
@@ -37,42 +52,36 @@
 
 ---
 
-📊 **GitHub Stats**
+### 📊 GitHub Stats
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=akshh-bhardwaj&show_icons=true&theme=tokyonight" alt="stats" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=akshh-bhardwaj&theme=tokyonight" alt="streak" />
+  <img src="https://github-readme-streak-stats.vercel.app/?user=akshh-bhardwaj&theme=tokyonight" alt="streak" />
 </p>
-
----
-
-📈 **Most Used Languages**
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=akshh-bhardwaj&layout=compact&theme=tokyonight" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=akshh-bhardwaj&layout=compact&theme=tokyonight" alt="langs" />
 </p>
 
 ---
 
-## 🐍 Pacman Contribution Visualizer  
+### 🐍 Pacman Contribution Visualizer  
 
 ![Pacman](https://raw.githubusercontent.com/Akshh-bhardwaj/Packman/output/dist/github-contribution-grid-snake.gif)
 
-*Pacman style eating your GitHub activity.*
-
 ---
 
-🎯 **Current Goals**
+### 🎯 Current Goals
 
 - ✅ Master DSA in C  
 - ✅ Build full-stack projects using MERN  
 
 ---
 
-### 🙌 Let's Connect
+### 🙌 Let’s Connect
 
 <p align="center">
   <a href="https://www.linkedin.com/in/akshit-sharma-790601189/">
@@ -87,3 +96,8 @@
 </p>
 
 ---
+
+<!-- Waving hand GIF -->
+<p align="center">
+  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="80px">
+</p>
