@@ -1,11 +1,8 @@
-<!-- Banner: fallback badge-style plus suggestion to replace with custom image -->
+<!-- Banner: reliable badge-style fallback; replace with your own uploaded banner if you want -->
 <p align="center">
-  <!-- Badge-style banner as reliable fallback -->
   <img src="https://img.shields.io/badge/Hi%20👋%20I'm%20Akshit%20Sharma-C%20%7C%20DSA%20%26%20FullStack%20Dev-00BFFF?style=for-the-badge&logo=github" alt="Banner" />
-</p>
-<p align="center">
-  <!-- Optional: replace the above with your custom uploaded banner image like: -->
-  <!-- <img src="./assets/your-custom-banner.png" alt="Custom Banner" /> -->
+  <!-- Uncomment and replace with your custom banner once you upload it to the repo -->
+  <!-- <br/><img src="./assets/custom-banner.png" alt="Custom Banner" /> -->
 </p>
 
 <h1 align="center">Hi 👋, I'm Akshit Sharma</h1>
@@ -31,7 +28,6 @@
   <img src="https://komarev.com/ghpvc/?username=akshh-bhardwaj&label=Profile%20Views&color=0e75b6&style=for-the-badge" alt="Profile views" />
   <img src="https://img.shields.io/github/followers/akshh-bhardwaj?label=Followers&style=for-the-badge" alt="Followers" />
   <img src="https://img.shields.io/github/stars/akshh-bhardwaj?label=Stars&style=for-the-badge" alt="Stars" />
-  <img src="https://img.shields.io/badge/Top%20Language-C-blue?style=for-the-badge&logo=c" alt="Top language" />
 </p>
 
 ---
@@ -53,11 +49,10 @@
 ### 🏆 GitHub Trophies
 
 <p align="center">
-  <!-- Two themes for variety -->
-  <img src="https://github-profile-trophy.vercel.app/?username=akshh-bhardwaj&theme=onedark&row=1&column=6&margin-w=10&margin-h=10" alt="trophies onedark" />
-</p>
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=akshh-bhardwaj&theme=gruvbox&row=1&column=6&margin-w=10&margin-h=10" alt="trophies gruvbox" />
+  <!-- richer trophy display with more fields -->
+  <a href="https://github.com/akshh-bhardwaj">
+    <img src="https://github-profile-trophy.vercel.app/?username=akshh-bhardwaj&theme=juicyfresh&title=Repositories,Stars,Commits,Followers,PullRequest,MultipleLang&margin-w=15&margin-h=15" alt="GitHub trophies" />
+  </a>
 </p>
 
 ---
@@ -69,11 +64,11 @@
 </p>
 
 <p align="center">
-  <!-- Streak: if it fails, fallback note below -->
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=akshh-bhardwaj&theme=tokyonight" alt="GitHub streak" />
+  <!-- alternate streak endpoint; still flaky so keep the fallback note -->
+  <img src="https://streak-stats.demolab.com?user=akshh-bhardwaj&theme=tokyonight" alt="GitHub streak" />
 </p>
 <p align="center">
-  *If the streak graphic doesn't render, you can view your current streak on your GitHub profile directly.*  
+  *If the streak graphic doesn’t render, refresh or temporarily remove it; you can always see your streak on your GitHub profile directly.*  
 </p>
 
 <p align="center">
@@ -111,9 +106,9 @@
 
 ---
 
-### 👋 Bye (or rather, Hi again!)
+### 👋 See You Soon!
 
 <p align="center">
   <!-- Animated character saying hi -->
-  <img src="https://media.giphy.com/media/3o6ZsY9wP6KD0xgq2A/giphy.gif" width="120" alt="Waving hi" />
+  <img src="https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif" width="120" alt="Waving hi" />
 </p>
