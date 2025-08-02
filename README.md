@@ -1,15 +1,15 @@
-<!-- Banner -->
+<!-- ===== TOP BANNER ===== -->
 <p align="center">
-  <img src="./assets/banner.png" alt="Banner" style="max-width:100%; height:auto;" />
+  <img src="./assets/banner.png" alt="For the love of code" style="max-width:100%; height:auto;" />
 </p>
 
-<!-- Intro badges -->
+<!-- ===== INTRO BADGES ===== -->
 <p align="center">
   <img src="https://img.shields.io/badge/Hi%20👋%20I'm%20Akshit%20Sharma-C%20%7C%20DSA%20%26%20FullStack%20Dev-00BFFF?style=for-the-badge&logo=github" alt="Intro Badge" />
   <img src="https://komarev.com/ghpvc/?username=akshh-bhardwaj&label=Profile%20Views&color=0e75b6&style=for-the-badge" alt="Profile Views" />
 </p>
 
-<!-- Typing effect -->
+<!-- ===== TYPING ANIMATION ===== -->
 <h1 align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&pause=1000&color=00BFFF&center=true&vCenter=true&width=600&lines=Passionate+Coder+💻;C+%7C+DSA+%7C+Full+Stack+Dev+🚀;Lifelong+Learner+📚" alt="Typing Animation" />
 </h1>
@@ -90,7 +90,7 @@
 
 ---
 
-<!-- Footer Banner -->
+<!-- ===== FOOTER BANNER ===== -->
 <p align="center">
   <img src="./assets/banner.png" alt="Thanks for visiting!" style="max-width:100%; height:auto;" />
 </p>
