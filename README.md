@@ -1,6 +1,6 @@
-<!-- ===== TOP BANNER (GIF) ===== -->
+<!-- ===== TOP BANNER (GIF from Cool-GIFs-For-GitHub) ===== -->
 <p align="center">
-  <img src="./assets/banner.gif" alt="For the love of code" style="max-width:100%; height:auto;" />
+  <img src="https://raw.githubusercontent.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/main/assets/header.gif" alt="For the love of code" style="max-width:100%; height:auto;" />
 </p>
 
 <!-- ===== INTRO BADGES ===== -->
@@ -90,7 +90,7 @@
 
 ---
 
-<!-- ===== FOOTER BANNER (GIF) ===== -->
+<!-- ===== FOOTER BANNER (GIF from Cool-GIFs-For-GitHub) ===== -->
 <p align="center">
-  <img src="./assets/banner.gif" alt="Thanks for visiting!" style="max-width:100%; height:auto;" />
+  <img src="https://raw.githubusercontent.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/main/assets/footer.gif" alt="Thanks for visiting!" style="max-width:100%; height:auto;" />
 </p>
