@@ -1,6 +1,6 @@
-<!-- ===== TOP BANNER ===== -->
+<!-- ===== TOP BANNER (GIF) ===== -->
 <p align="center">
-  <img src="./assets/banner.png" alt="For the love of code" style="max-width:100%; height:auto;" />
+  <img src="./assets/banner.gif" alt="For the love of code" style="max-width:100%; height:auto;" />
 </p>
 
 <!-- ===== INTRO BADGES ===== -->
@@ -10,9 +10,9 @@
 </p>
 
 <!-- ===== TYPING ANIMATION ===== -->
-<h1 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&pause=1000&color=00BFFF&center=true&vCenter=true&width=600&lines=Passionate+Coder+💻;C+%7C+DSA+%7C+Full+Stack+Dev+🚀;Lifelong+Learner+📚" alt="Typing Animation" />
-</h1>
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&pause=1000&color=00BFFF&center=true&vCenter=true&width=650&lines=Passionate+Coder+💻;C+%7C+DSA+%7C+Full+Stack+Dev+🚀;Lifelong+Learner+📚" alt="Typing Animation" />
+</p>
 
 ---
 
@@ -90,7 +90,7 @@
 
 ---
 
-<!-- ===== FOOTER BANNER ===== -->
+<!-- ===== FOOTER BANNER (GIF) ===== -->
 <p align="center">
-  <img src="./assets/banner.png" alt="Thanks for visiting!" style="max-width:100%; height:auto;" />
+  <img src="./assets/banner.gif" alt="Thanks for visiting!" style="max-width:100%; height:auto;" />
 </p>
