@@ -1,6 +1,6 @@
-<!-- ===== TOP BANNER (GIF from Cool-GIFs-For-GitHub) ===== -->
+<!-- ===== TOP BANNER (GIF) ===== -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/main/assets/header.gif" alt="For the love of code" style="max-width:100%; height:auto;" />
+  <img src="https://user-images.githubusercontent.com/74038190/235224431-e8c8c12e-6826-47f1-89fb-2ddad83b3abf.gif" alt="Coding Animation" style="max-width:100%; height:auto;" />
 </p>
 
 <!-- ===== INTRO BADGES ===== -->
@@ -84,13 +84,4 @@
 
 <p align="center">
   <a href="https://www.linkedin.com/in/akshit-sharma-790601189/"><img src="https://img.shields.io/badge/LinkedIn-0077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="https://leetcode.com/Akshh2908/"><img src="https://img.shields.io/badge/LeetCode-FFA116.svg?style=for-the-badge&logo=leetcode&logoColor=black" /></a>
-  <a href="mailto:akshubhardwaj231@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836.svg?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-</p>
-
----
-
-<!-- ===== FOOTER BANNER (GIF from Cool-GIFs-For-GitHub) ===== -->
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/main/assets/footer.gif" alt="Thanks for visiting!" style="max-width:100%; height:auto;" />
-</p>
+  <a href="https://leetcode.com/Akshh2908/"><img src="https://img.shields.io/badge/
