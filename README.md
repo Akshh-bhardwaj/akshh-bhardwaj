@@ -1,6 +1,6 @@
 <!-- ===== TOP BANNER ===== -->
 <p align="center">
-  <img src="https://media.giphy.com/media/qgQUggCGvnPqBEeg3h/giphy.gif" alt="Coding Animation" style="max-width:100%; height:auto;" />
+  <img src="https://media1.tenor.com/m/h9f9iK2vXcwAAAAd/russian-mafia.gif" alt="Russian Mafia Animation" style="max-width:100%; height:auto;" />
 </p>
 
 <!-- ===== INTRO BADGES ===== -->
@@ -16,7 +16,7 @@
 
 ---
 
-## 🌟 Обо мне (About Me)
+## 🌟 About Me
 - 🌱 Currently working on **Full Stack Development** & **Data Science**  
 - 💬 Ask me about **C programming**, **DSA**, **LeetCode Questions**, and **GitHub Projects**  
 - 📫 Reach me at **akshubhardwaj231@gmail.com**  
@@ -27,7 +27,7 @@
   <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" alt="Fading Line Separator" width="100%" />
 </p>
 
-## 💻 Технический Арсенал (Tech Arsenal)
+## 💻 Tech Arsenal
 <p align="center">
   <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" alt="C" />
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
@@ -41,7 +41,7 @@
 
 ---
 
-## 🚀 Недавние Проекты (Recent Projects)
+## 🚀 Recent Projects
 <table align="center" style="border: none;">
   <tr>
     <td align="center" width="50%">
@@ -61,14 +61,14 @@
 
 ---
 
-## 🏆 Достижения на GitHub (GitHub Achievements)
+## 🏆 GitHub Achievements
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=akshh-bhardwaj&theme=radical&title=Repositories,Stars,Commits,Followers,PullRequest,MultipleLang&margin-w=15&margin-h=15" alt="Trophies" />
 </p>
 
 ---
 
-## 📊 Обзор Статистики (Stats Overview)
+## 📊 Stats Overview
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=akshh-bhardwaj&show_icons=true&theme=radical&hide_border=true&border_color=d32f2f" height="150" alt="GitHub Stats" />
   <img src="https://streak-stats.demolab.com?user=akshh-bhardwaj&theme=radical&hide_border=true&border_color=d32f2f" height="150" alt="GitHub Streak" />
@@ -80,7 +80,7 @@
 
 ---
 
-## 💡 Статистика LeetCode (LeetCode Stats)
+## 💡 LeetCode Stats
 <p align="center">
   <a href="https://leetcode.com/Akshh2908/">
     <img src="https://leetcard.jacoblin.cool/Akshh2908?theme=radical&font=Space%20Mono&ext=heatmap" alt="LeetCode Stats" />
@@ -89,7 +89,7 @@
 
 ---
 
-## ❓ Вопросы для Собеседования (Interview Questions)
+## ❓ Interview Questions
 <details>
   <summary><b>1. What is the difference between malloc() and calloc() in C?</b></summary>
   <br>
@@ -110,14 +110,14 @@
 
 ---
 
-## 🎯 Текущие Цели (Current Goals)
+## 🎯 Current Goals
 - 🚀 Master **DSA in C**  
 - 📂 Build advanced **Full Stack MERN** projects  
 - 🎯 Solve **500+ LeetCode** problems  
 
 ---
 
-## 🤝 Давайте Свяжемся (Let's Connect)
+## 🤝 Let's Connect
 <p align="center">
   <a href="https://www.linkedin.com/in/akshit-sharma-790601189/"><img src="https://img.shields.io/badge/LinkedIn-d32f2f.svg?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
   <a href="https://leetcode.com/Akshh2908/"><img src="https://img.shields.io/badge/LeetCode-b71c1c.svg?style=for-the-badge&logo=leetcode&logoColor=white" /></a>
