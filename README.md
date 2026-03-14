@@ -39,6 +39,13 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=akshh-bhardwaj&layout=compact&theme=nord&hide_border=true&bg_color=2e3440&text_color=d8dee9&title_color=88c0d0" width="48%" />
 </p>
 
+<h3 align="center">💡 LeetCode Stats</h3>
+<p align="center">
+  <a href="https://leetcode.com/Akshh2908/">
+    <img src="https://leetcard.jacoblin.cool/Akshh2908?theme=nord&font=Space%20Mono&ext=heatmap" alt="LeetCode Stats" />
+  </a>
+</p>
+
 <h3 align="center">🛠 Languages & Tools I Have Placed My Hands On</h3>
 <p align="center">
   <img src="https://skillicons.dev/icons?i=c,cpp,python,js,html,css,react,nodejs,express,mongodb,mysql,git,github,vscode,figma,postman" />
