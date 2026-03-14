@@ -1,6 +1,6 @@
 <!-- ===== TOP BANNER ===== -->
 <p align="center">
-  <img src="https://media1.tenor.com/m/h9f9iK2vXcwAAAAd/russian-mafia.gif" alt="Russian Mafia Animation" style="max-width:100%; height:auto;" />
+  <img src="https://media1.tenor.com/m/5GZJ1P8Vw4IAAAAd/hacker-code.gif" alt="Hacker Coding Animation" style="max-width:100%; height:auto;" />
 </p>
 
 <!-- ===== INTRO BADGES ===== -->
