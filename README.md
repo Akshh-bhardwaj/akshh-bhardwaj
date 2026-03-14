@@ -1,13 +1,14 @@
 <!-- ===== TOP BANNER ===== -->
 <p align="center">
-  <img src="https://media1.tenor.com/m/YwGZXY5w2i8AAAAd/fighter-jet.gif" alt="Fighter Jet Animation" style="max-width:100%; height:auto;" />
+  <img src="https://media3.giphy.com/media/aUovxH8Vf9qDu/giphy.gif" alt="Hacker Matrix Animation" style="max-width:100%; height:auto;" />
 </p>
 
 <!-- ===== INTRO BADGES ===== -->
 <p align="center">
-  <img src="https://img.shields.io/badge/Hi%20👋%20I'm%20Akshit%20Sharma-C%20%7C%20DSA%20%26%20FullStack%20Dev-d32f2f?style=for-the-badge&logo=github" alt="Intro Badge" />
-  <img src="https://komarev.com/ghpvc/?username=akshh-bhardwaj&label=Profile%20Views&color=b71c1c&style=for-the-badge" alt="Profile Views" />
+  <img src="https://img.shields.io/badge/Hi%20👋%20I'm%20Akshit%20Sharma-C%20%7C%20DSA%20%26%20FullStack%20Dev-000000?style=for-the-badge&logo=github&logoColor=ffffff" alt="Intro Badge" />
+  <img src="https://komarev.com/ghpvc/?username=akshh-bhardwaj&label=Profile%20Views&color=555555&style=for-the-badge" alt="Profile Views" />
 </p>
+
 
 <!-- ===== TYPING ANIMATION ===== -->
 <div align="center">
@@ -46,13 +47,13 @@
   <tr>
     <td align="center" width="50%">
       <a href="https://github.com/Akshh-bhardwaj/foryou-chatbot">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Akshh-bhardwaj&repo=foryou-chatbot&theme=radical" alt="For You Chatbot" />
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Akshh-bhardwaj&repo=foryou-chatbot&theme=transparent&bg_color=000000&title_color=ffffff&text_color=aaaaaa&icon_color=ffffff&border_color=333333" alt="For You Chatbot" />
       </a>
       <p><b>For You Chatbot</b>: Interactive AI chatbot.</p>
     </td>
     <td align="center" width="50%">
       <a href="https://github.com/Akshh-bhardwaj/Premium-Chess">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Akshh-bhardwaj&repo=Premium-Chess&theme=radical" alt="Premium Chess" />
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Akshh-bhardwaj&repo=Premium-Chess&theme=transparent&bg_color=000000&title_color=ffffff&text_color=aaaaaa&icon_color=ffffff&border_color=333333" alt="Premium Chess" />
       </a>
       <p><b>Premium Chess</b>: A sophisticated chess application.</p>
     </td>
@@ -61,21 +62,21 @@
 
 ---
 
-## 🏆 GitHub Achievements
+## 📈 GitHub Activity Graph
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Akshh-bhardwaj&theme=radical&title=Repositories,Stars,Commits,Followers,PullRequest,MultipleLang&margin-w=15&margin-h=15" alt="Trophies" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=akshh-bhardwaj&theme=dracula&bg_color=000000&color=ffffff&line=aaaaaa&point=ffffff&hide_border=true" alt="GitHub Activity Graph" />
 </p>
 
 ---
 
 ## 📊 Stats Overview
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=akshh-bhardwaj&show_icons=true&theme=radical&hide_border=true&border_color=d32f2f" height="150" alt="GitHub Stats" />
-  <img src="https://streak-stats.demolab.com?user=akshh-bhardwaj&theme=radical&hide_border=true&border_color=d32f2f" height="150" alt="GitHub Streak" />
+  <img src="https://github-readme-stats.vercel.app/api?username=akshh-bhardwaj&show_icons=true&theme=transparent&bg_color=000000&title_color=ffffff&text_color=aaaaaa&icon_color=ffffff&hide_border=true" height="150" alt="GitHub Stats" />
+  <img src="https://streak-stats.demolab.com?user=akshh-bhardwaj&theme=transparent&background=000000&ring=ffffff&fire=ffffff&currStreakNum=ffffff&currStreakLabel=aaaaaa&sideNums=ffffff&sideLabels=aaaaaa&dates=aaaaaa&hide_border=true" height="150" alt="GitHub Streak" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=akshh-bhardwaj&layout=compact&theme=radical&hide_border=true&border_color=d32f2f" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=akshh-bhardwaj&layout=compact&theme=transparent&bg_color=000000&title_color=ffffff&text_color=aaaaaa&hide_border=true" alt="Top Languages" />
 </p>
 
 ---
@@ -83,7 +84,7 @@
 ## 💡 LeetCode Stats
 <p align="center">
   <a href="https://leetcode.com/Akshh2908/">
-    <img src="https://leetcard.jacoblin.cool/Akshh2908?theme=radical&font=Space%20Mono&ext=heatmap" alt="LeetCode Stats" />
+    <img src="https://leetcard.jacoblin.cool/Akshh2908?theme=dark&font=Space%20Mono&ext=heatmap" alt="LeetCode Stats" />
   </a>
 </p>
 
@@ -119,9 +120,9 @@
 
 ## 🤝 Let's Connect
 <p align="center">
-  <a href="https://www.linkedin.com/in/akshit-sharma-790601189/"><img src="https://img.shields.io/badge/LinkedIn-d32f2f.svg?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="https://leetcode.com/Akshh2908/"><img src="https://img.shields.io/badge/LeetCode-b71c1c.svg?style=for-the-badge&logo=leetcode&logoColor=white" /></a>
-  <a href="mailto:akshubhardwaj231@gmail.com"><img src="https://img.shields.io/badge/Gmail-c62828.svg?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="https://www.linkedin.com/in/akshit-sharma-790601189/"><img src="https://img.shields.io/badge/LinkedIn-000000.svg?style=for-the-badge&logo=linkedin&logoColor=ffffff" /></a>
+  <a href="https://leetcode.com/Akshh2908/"><img src="https://img.shields.io/badge/LeetCode-333333.svg?style=for-the-badge&logo=leetcode&logoColor=ffffff" /></a>
+  <a href="mailto:akshubhardwaj231@gmail.com"><img src="https://img.shields.io/badge/Gmail-000000.svg?style=for-the-badge&logo=gmail&logoColor=ffffff" /></a>
 </p>
 
 ---
