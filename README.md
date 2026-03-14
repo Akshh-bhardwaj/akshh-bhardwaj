@@ -123,3 +123,14 @@
   <a href="https://leetcode.com/Akshh2908/"><img src="https://img.shields.io/badge/LeetCode-b71c1c.svg?style=for-the-badge&logo=leetcode&logoColor=white" /></a>
   <a href="mailto:akshubhardwaj231@gmail.com"><img src="https://img.shields.io/badge/Gmail-c62828.svg?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 </p>
+
+---
+
+## 🐍 Contribution Snake (Pac-Man Style)
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Akshh-bhardwaj/akshh-bhardwaj/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Akshh-bhardwaj/akshh-bhardwaj/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Akshh-bhardwaj/akshh-bhardwaj/output/github-contribution-grid-snake.svg">
+  </picture>
+</p>
