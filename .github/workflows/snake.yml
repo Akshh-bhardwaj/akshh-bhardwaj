@@ -13,6 +13,10 @@ on:
     branches:
     - main
     
+  # Set permissions to allow the action to push to the repo
+permissions:
+  contents: write
+
 jobs:
   generate:
     runs-on: ubuntu-latest

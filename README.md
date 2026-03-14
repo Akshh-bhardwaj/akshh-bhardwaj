@@ -1,11 +1,11 @@
 <!-- ===== TOP BANNER ===== -->
 <p align="center">
-  <img src="https://media1.tenor.com/m/5GZJ1P8Vw4IAAAAd/hacker-code.gif" alt="Hacker Coding Animation" style="max-width:100%; height:auto;" />
+  <img src="https://media1.tenor.com/m/YwGZXY5w2i8AAAAd/fighter-jet.gif" alt="Fighter Jet Animation" style="max-width:100%; height:auto;" />
 </p>
 
 <!-- ===== INTRO BADGES ===== -->
 <p align="center">
-  <img src="https://img.shields.io/badge/Привет%20👋%20I'm%20Akshit%20Sharma-C%20%7C%20DSA%20%26%20FullStack%20Dev-d32f2f?style=for-the-badge&logo=github" alt="Intro Badge" />
+  <img src="https://img.shields.io/badge/Hi%20👋%20I'm%20Akshit%20Sharma-C%20%7C%20DSA%20%26%20FullStack%20Dev-d32f2f?style=for-the-badge&logo=github" alt="Intro Badge" />
   <img src="https://komarev.com/ghpvc/?username=akshh-bhardwaj&label=Profile%20Views&color=b71c1c&style=for-the-badge" alt="Profile Views" />
 </p>
 
@@ -63,7 +63,7 @@
 
 ## 🏆 GitHub Achievements
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=akshh-bhardwaj&theme=radical&title=Repositories,Stars,Commits,Followers,PullRequest,MultipleLang&margin-w=15&margin-h=15" alt="Trophies" />
+  <img src="https://github-profile-trophy.vercel.app/?username=Akshh-bhardwaj&theme=radical&title=Repositories,Stars,Commits,Followers,PullRequest,MultipleLang&margin-w=15&margin-h=15" alt="Trophies" />
 </p>
 
 ---
