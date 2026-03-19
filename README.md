@@ -33,6 +33,30 @@
 
 ---
 
+<h3 align="center">🏅 Official GitHub Achievements</h3>
+<p align="center">
+  <img src="https://github.githubassets.com/images/modules/profile/achievements/pull-shark-default.png" alt="Pull Shark" width="75" />
+  <img src="https://github.githubassets.com/images/modules/profile/achievements/pull-shark-bronze.png" alt="Pull Shark Bronze" width="75" />
+  <img src="https://github.githubassets.com/images/modules/profile/achievements/pull-shark-silver.png" alt="Pull Shark Silver" width="75" />
+  <img src="https://github.githubassets.com/images/modules/profile/achievements/pull-shark-gold.png" alt="Pull Shark Gold" width="75" />
+  <img src="https://github.githubassets.com/images/modules/profile/achievements/yolo-default.png" alt="YOLO" width="75" />
+  <img src="https://github.githubassets.com/images/modules/profile/achievements/quickdraw-default.png" alt="Quickdraw" width="75" />
+  <img src="https://github.githubassets.com/images/modules/profile/achievements/galaxy-brain-default.png" alt="Galaxy Brain" width="75" />
+  <img src="https://github.githubassets.com/images/modules/profile/achievements/galaxy-brain-bronze.png" alt="Galaxy Brain Bronze" width="75" />
+  <img src="https://github.githubassets.com/images/modules/profile/achievements/galaxy-brain-silver.png" alt="Galaxy Brain Silver" width="75" />
+  <img src="https://github.githubassets.com/images/modules/profile/achievements/galaxy-brain-gold.png" alt="Galaxy Brain Gold" width="75" />
+  <img src="https://github.githubassets.com/images/modules/profile/achievements/starstruck-default.png" alt="Starstruck" width="75" />
+  <img src="https://github.githubassets.com/images/modules/profile/achievements/starstruck-bronze.png" alt="Starstruck Bronze" width="75" />
+  <img src="https://github.githubassets.com/images/modules/profile/achievements/starstruck-silver.png" alt="Starstruck Silver" width="75" />
+  <img src="https://github.githubassets.com/images/modules/profile/achievements/starstruck-gold.png" alt="Starstruck Gold" width="75" />
+  <img src="https://github.githubassets.com/images/modules/profile/achievements/pair-extraordinaire-default.png" alt="Pair Extraordinaire" width="75" />
+  <img src="https://github.githubassets.com/images/modules/profile/achievements/pair-extraordinaire-bronze.png" alt="Pair Extraordinaire Bronze" width="75" />
+  <img src="https://github.githubassets.com/images/modules/profile/achievements/pair-extraordinaire-silver.png" alt="Pair Extraordinaire Silver" width="75" />
+  <img src="https://github.githubassets.com/images/modules/profile/achievements/pair-extraordinaire-gold.png" alt="Pair Extraordinaire Gold" width="75" />
+  <img src="https://github.githubassets.com/images/modules/profile/achievements/arctic-code-vault-contributor-default.png" alt="Arctic Code Vault Contributor" width="75" />
+  <img src="https://github.githubassets.com/images/modules/profile/achievements/mars-2020-contributor-default.png" alt="Mars 2020 Contributor" width="75" />
+</p>
+
 <h3 align="center">🔥 GitHub Streak Stats</h3>
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=akshh-bhardwaj&theme=nord&hide_border=true" alt="akshh-bhardwaj streak stats" />
