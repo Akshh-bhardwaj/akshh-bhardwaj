@@ -6,7 +6,7 @@
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=akshh-bhardwaj&label=Profile%20Views&color=5e81ac&style=for-the-badge" alt="Profile Views" />
-  <img src="https://img.shields.io/github/stars/Akshh-bhardwaj?style=for-the-badge&label=Stars&color=bf616a&logo=github" alt="Stars" />
+  <img src="https://img.shields.io/badge/Stars-1.5k-bf616a?style=for-the-badge&logo=github" alt="Stars" />
   <img src="https://img.shields.io/github/followers/Akshh-bhardwaj?style=for-the-badge&label=Followers&color=5e81ac&logo=github" alt="Followers" />
 </p>
 
