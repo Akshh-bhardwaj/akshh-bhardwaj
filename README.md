@@ -33,11 +33,9 @@
 
 ---
 
-<h3 align="center">🏆 GitHub Achievements & Trophies</h3>
+<h3 align="center">🔥 GitHub Streak Stats</h3>
 <p align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=akshh-bhardwaj&theme=nord&no-frame=true&no-bg=true&margin-w=15" alt="akshh-bhardwaj trophies" />
-  </a>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=akshh-bhardwaj&theme=nord&hide_border=true" alt="akshh-bhardwaj streak stats" />
 </p>
 
 <h3 align="center">🚀 Github Status</h3>
