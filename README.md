@@ -33,6 +33,13 @@
 
 ---
 
+<h3 align="center">🏆 GitHub Achievements & Trophies</h3>
+<p align="center">
+  <a href="https://github.com/ryo-ma/github-profile-trophy">
+    <img src="https://github-profile-trophy.vercel.app/?username=akshh-bhardwaj&theme=nord&no-frame=true&no-bg=true&margin-w=15" alt="akshh-bhardwaj trophies" />
+  </a>
+</p>
+
 <h3 align="center">🚀 Github Status</h3>
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=akshh-bhardwaj&show_icons=true&theme=nord&hide_border=true&bg_color=2e3440&text_color=d8dee9&title_color=88c0d0" width="48%" />
