@@ -67,14 +67,6 @@
   <img src="https://github-readme-stats.vercel.app/api?username=akshh-bhardwaj&show_icons=true&theme=nord&hide_border=true&bg_color=2e3440&text_color=d8dee9&title_color=88c0d0" width="48%" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=akshh-bhardwaj&layout=compact&theme=nord&hide_border=true&bg_color=2e3440&text_color=d8dee9&title_color=88c0d0" width="48%" />
 </p>
-
-<h3 align="center">⚽ My GitFut Scout Card</h3>
-<p align="center">
-  <a href="https://gitfut.com/akshh-bhardwaj">
-    <img src="https://gitfut.com/akshh-bhardwaj.png" alt="My GitFut card" width="280" />
-  </a>
-</p>
-
 <h3 align="center">💡 LeetCode Stats</h3>
 <p align="center">
   <a href="https://leetcode.com/Akshh2908/">
