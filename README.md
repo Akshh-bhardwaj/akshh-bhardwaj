@@ -59,18 +59,18 @@
 
 <h3 align="center">🔥 GitHub Streak Stats</h3>
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=akshh-bhardwaj&theme=nord&hide_border=true" alt="akshh-bhardwaj streak stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=akshh-bhardwaj&theme=tokyonight&hide_border=true" alt="akshh-bhardwaj streak stats" />
 </p>
 
 <h3 align="center">🚀 Github Status</h3>
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=akshh-bhardwaj&show_icons=true&theme=nord&hide_border=true&bg_color=2e3440&text_color=d8dee9&title_color=88c0d0" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=akshh-bhardwaj&layout=compact&theme=nord&hide_border=true&bg_color=2e3440&text_color=d8dee9&title_color=88c0d0" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=akshh-bhardwaj&show_icons=true&theme=tokyonight&hide_border=true" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=akshh-bhardwaj&layout=compact&theme=tokyonight&hide_border=true" width="48%" />
 </p>
 <h3 align="center">💡 LeetCode Stats</h3>
 <p align="center">
   <a href="https://leetcode.com/Akshh2908/">
-    <img src="https://leetcard.jacoblin.cool/Akshh2908?theme=nord&font=Space%20Mono&ext=heatmap" alt="LeetCode Stats" />
+    <img src="https://leetcard.jacoblin.cool/Akshh2908?theme=dark&font=Space%20Mono&ext=heatmap" alt="LeetCode Stats" />
   </a>
 </p>
 
@@ -110,10 +110,10 @@
 <h3 align="center">⭐ Best Repositories</h3>
 <p align="center">
   <a href="https://github.com/Akshh-bhardwaj/foryou-chatbot">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Akshh-bhardwaj&repo=foryou-chatbot&theme=nord&bg_color=2e3440&text_color=d8dee9&title_color=88c0d0&hide_border=true" width="48%" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Akshh-bhardwaj&repo=foryou-chatbot&theme=tokyonight&hide_border=true" width="48%" />
   </a>
   <a href="https://github.com/Akshh-bhardwaj/Premium-Chess">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Akshh-bhardwaj&repo=Premium-Chess&theme=nord&bg_color=2e3440&text_color=d8dee9&title_color=88c0d0&hide_border=true" width="48%" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Akshh-bhardwaj&repo=Premium-Chess&theme=tokyonight&hide_border=true" width="48%" />
   </a>
 </p>
 
