@@ -3,11 +3,11 @@
 <!-- ========================================== -->
 <p align="center">
   <!-- Vercel-style animated banner with cache buster -->
-  <img src="assets/banner.svg?v=4" width="100%" alt="Akshit Sharma Hero Banner" />
+  <img src="assets/banner.svg?v=5" width="100%" alt="Akshit Sharma Hero Banner" />
 </p>
 
 # <p align="center">Namaste 🙏 I'm Akshit Sharma (aka AkshBuilds)</p>
-<h3 align="center">I build AI-powered <span style="color: #00f0ff;">websites & tools 🚀</span></h3>
+<h3 align="center">I build high-performance <span style="color: #00f0ff;">websites & applications 🚀</span></h3>
 <p align="center"><i>Helping creators and businesses grow faster through cutting-edge, scalable digital solutions.</i></p>
 
 <p align="center">
@@ -41,7 +41,7 @@
   <tr align="center">
     <td width="25%">
       <h2>🛠️ 10+</h2>
-      <p><b>AI Tools Built</b></p>
+      <p><b>Custom Projects Built</b></p>
     </td>
     <td width="25%">
       <h2>🔥 5k+</h2>
@@ -68,11 +68,11 @@
     <td width="60%" valign="top">
       <h3>💫 About Me</h3>
       <p>
-        Hey! I am <b>Aksh</b>, building and sharing AI tools that help you save money and work smarter. My journey revolves around optimizing workflows, building high-performance applications, and exploring the bleeding edge of AI capabilities.
+        Hey! I am <b>Aksh</b>, a full-stack developer dedicated to building high-performance web applications, optimizing backend architectures, and mastering algorithmic systems. I design, code, and deploy everything from scratch, focusing on scalability, security, and clean architecture.
       </p>
       <ul>
-        <li>🌱 <b>Primary Focus</b>: Building AI Agents, orchestration pipelines, and RAG systems.</li>
-        <li>🌐 <b>Mission</b>: Replacing paid AI tools with open-source/free alternatives on <a href="https://akshbuilds.tech">akshbuilds.tech</a>.</li>
+        <li>🌱 <b>Primary Focus</b>: Full-stack web development, backend engineering, and system design.</li>
+        <li>🌐 <b>Mission</b>: Designing, hosting, and sharing open-source web utilities and tools on <a href="https://akshbuilds.tech">akshbuilds.tech</a>.</li>
         <li>⚡ <b>Daily Practice</b>: Solving Data Structures & Algorithms on <b>LeetCode</b>.</li>
         <li>💬 <b>Languages</b>: Fluent in Python, JavaScript, TypeScript, C++, Java, and SQL.</li>
       </ul>
@@ -101,8 +101,8 @@
       <p align="center">Building secure, high-throughput microservices using Node.js, Express, PostgreSQL, and low-latency WebSockets.</p>
     </td>
     <td width="33%" valign="top">
-      <h4 align="center">🤖 AI Orchestration</h4>
-      <p align="center">Integrating LLMs (OpenAI, Claude) and building intelligent LangChain RAG agents into robust web platforms.</p>
+      <h4 align="center">⚙️ Database &amp; DevOps</h4>
+      <p align="center">Designing secure database schemas, configuring cloud hosting deployments, and optimizing API performance.</p>
     </td>
   </tr>
 </table>
@@ -193,8 +193,8 @@
       <a href="https://forminne.netlify.app/" target="_blank">
         <img src="https://raw.githubusercontent.com/Akshh-bhardwaj/akshbuilds/main/public/assets/project_video_dash_1775024426115.webp" width="100%" alt="Forminne OS" style="border-radius: 8px;" />
       </a>
-      <h4>🖥️ Forminne - AI Agent OS</h4>
-      <p>Orchestrate generative AI models (DALL-E, Sora, GPT) concurrently using a WebGL frontend and Node/Python execution engine.</p>
+      <h4>🖥️ Forminne - Custom Agent OS</h4>
+      <p>Built a custom concurrent model orchestration dashboard using a WebGL frontend and a custom Node/Python execution engine.</p>
       <p>
         <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
         <img src="https://img.shields.io/badge/OpenAI%20API-412991?style=flat-square&logo=openai&logoColor=white" alt="OpenAI" />
@@ -210,7 +210,7 @@
         <img src="https://raw.githubusercontent.com/Akshh-bhardwaj/akshbuilds/main/public/assets/project_ai_tracker_1775024442510.webp" width="100%" alt="AI Model Tracking Hub" style="border-radius: 8px;" />
       </a>
       <h4>📊 AI Model Tracking Hub</h4>
-      <p>High-performance dashboard for MLOps engineers providing sub-50ms performance metrics for LLM instances via GraphQL.</p>
+      <p>Designed and developed a low-latency monitoring dashboard rendering metrics under 50ms utilizing GraphQL.</p>
       <p>
         <img src="https://img.shields.io/badge/React%20Native-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React Native" />
         <img src="https://img.shields.io/badge/GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white" alt="GraphQL" />
@@ -228,7 +228,7 @@
         <img src="https://raw.githubusercontent.com/Akshh-bhardwaj/akshbuilds/main/public/assets/project_premium_chess_1775025919148.webp" width="100%" alt="Premium Chess" style="border-radius: 8px;" />
       </a>
       <h4>♟️ Premium-Chess Engine</h4>
-      <p>A highly aesthetic, scalable multiplayer chess hub powered by WebSockets, Next.js, and predictive move processing.</p>
+      <p>Engineered a highly responsive multiplayer chess platform from scratch using Next.js, custom WebSockets, and predictive move algorithms.</p>
       <p>
         <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" />
         <img src="https://img.shields.io/badge/WebSockets-010101?style=flat-square&logo=socketdotio&logoColor=white" alt="WebSockets" />
@@ -243,8 +243,8 @@
       <a href="https://phenomenal-muffin-646633.netlify.app/" target="_blank">
         <img src="https://raw.githubusercontent.com/Akshh-bhardwaj/akshbuilds/main/public/assets/project_chatbot_1775025903371.webp" width="100%" alt="Agentic RAG Assistant" style="border-radius: 8px;" />
       </a>
-      <h4>🤖 Agentic RAG Assistant</h4>
-      <p>Context-aware document extraction assistant using vector embeddings, semantic chunking, LangChain, and multi-agent systems.</p>
+      <h4>🤖 Document RAG Assistant</h4>
+      <p>Developed a document extraction system utilizing custom vector embeddings, semantic chunking algorithms, and multi-agent flows.</p>
       <p>
         <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
         <img src="https://img.shields.io/badge/LangChain-1C3C3A?style=flat-square&logo=langchain&logoColor=white" alt="LangChain" />
@@ -263,7 +263,7 @@
           <img src="https://raw.githubusercontent.com/Akshh-bhardwaj/akshbuilds/main/public/assets/project_backend_api_1775025512690.webp" width="100%" alt="Secure Fintech Backend" style="border-radius: 8px;" />
         </a>
         <h4>🔒 Secure Fintech Backend</h4>
-        <p>Engineered an OWASP-standard API routing thousands of pseudo-financial requests to a PostgreSQL data lake.</p>
+        <p>Designed and implemented an OWASP-compliant API routing thousands of concurrent financial requests to a PostgreSQL database.</p>
         <p>
           <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js" />
           <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
@@ -289,8 +289,8 @@
       <p>Sleek landing pages, complex SaaS applications, and robust e-commerce platforms. Tailored, blazing-fast, and responsive.</p>
     </td>
     <td width="50%" valign="top">
-      <h4>🧠 AI Workflow Integration</h4>
-      <p>Seamless integration of custom chatbots, automated extraction systems, and multi-agent RAG tools into your websites.</p>
+      <h4>⚙️ Backend System Integration</h4>
+      <p>Building scalable APIs, microservices, and custom database structures to support high-traffic web applications.</p>
     </td>
   </tr>
   <tr>

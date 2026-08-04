@@ -210,7 +210,7 @@
     <text x="60" y="90" fill="#a5b4fc" font-size="11" font-weight="700" letter-spacing="1">SYSTEMS // LOAD</text>
     <text x="60" y="112" fill="#ffffff" font-size="18" font-weight="800">100% ONLINE</text>
     <text x="60" y="136" fill="#888899" font-size="10" font-family="monospace">&gt; CORE: REACT // NEXT.JS</text>
-    <text x="60" y="152" fill="#00f3ff" font-size="10" font-family="monospace">&gt; AI: OPENAI // CLAUDE</text>
+    <text x="60" y="152" fill="#00f3ff" font-size="10" font-family="monospace">&gt; BACKEND: NODE // EXPRESS</text>
   </g>
 
   <!-- Right Glassmorphic Dashboard Card -->
@@ -222,16 +222,16 @@
     <text x="715" y="72" fill="#ff007f" font-size="11" font-weight="700" letter-spacing="1" filter="url(#subtle-glow)">&gt; ALG_STREAM</text>
     
     <g transform="translate(715, 92)">
-      <text x="0" y="10" fill="#ffffff" font-size="11" font-weight="700">AI Agents Space</text>
+      <text x="0" y="10" fill="#ffffff" font-size="11" font-weight="700">Full Stack Space</text>
       <text x="150" y="10" fill="#00f3ff" font-size="11" font-family="monospace" font-weight="800">Active</text>
       <line x1="0" y1="18" x2="220" y2="18" stroke="#ffffff" stroke-opacity="0.08" />
 
-      <text x="0" y="34" fill="#ffffff" font-size="11" font-weight="700">Full Stack Dev</text>
-      <text x="150" y="34" fill="#ff007f" font-size="11" font-family="monospace" font-weight="800">React // Next</text>
+      <text x="0" y="34" fill="#ffffff" font-size="11" font-weight="700">Backend Systems</text>
+      <text x="150" y="34" fill="#ff007f" font-size="11" font-family="monospace" font-weight="800">Node // Express</text>
       <line x1="0" y1="42" x2="220" y2="42" stroke="#ffffff" stroke-opacity="0.08" />
 
-      <text x="0" y="58" fill="#ffffff" font-size="11" font-weight="700">Intelligence RAG</text>
-      <text x="150" y="58" fill="#00ff66" font-size="11" font-family="monospace" font-weight="800">LLM // Lang</text>
+      <text x="0" y="58" fill="#ffffff" font-size="11" font-weight="700">Database Mesh</text>
+      <text x="150" y="58" fill="#00ff66" font-size="11" font-family="monospace" font-weight="800">SQL // NoSQL</text>
     </g>
   </g>
 
@@ -242,11 +242,11 @@
     
     <!-- Opacity-faded Subtitle Loops (No clip-path translation, maximum browser compatibility) -->
     <g transform="translate(0, 20)">
-      <text x="0" y="0" class="sub-text sub1">AI ENGINEER</text>
-      <text x="0" y="0" class="sub-text sub2">AI ORCHESTRATION</text>
-      <text x="0" y="0" class="sub-text sub3">FULL STACK DEVELOPER</text>
-      <text x="0" y="0" class="sub-text sub4">SYSTEMS BUILDER</text>
-      <text x="0" y="0" class="sub-text sub5">CREATIVE CODER</text>
+      <text x="0" y="0" class="sub-text sub1">FULL STACK DEVELOPER</text>
+      <text x="0" y="0" class="sub-text sub2">SYSTEM ARCHITECT</text>
+      <text x="0" y="0" class="sub-text sub3">BACKEND ENGINEER</text>
+      <text x="0" y="0" class="sub-text sub4">CREATIVE BUILDER</text>
+      <text x="0" y="0" class="sub-text sub5">PROBLEM SOLVER</text>
       <text x="0" y="0" class="sub-text sub6">AKSHBUILDS.TECH</text>
     </g>
   </g>
