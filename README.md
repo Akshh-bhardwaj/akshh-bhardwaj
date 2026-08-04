@@ -76,10 +76,18 @@
         <li>⚡ <b>Daily Practice</b>: Solving Data Structures & Algorithms on <b>LeetCode</b>.</li>
         <li>💬 <b>Languages</b>: Fluent in Python, JavaScript, TypeScript, C++, Java, and SQL.</li>
       </ul>
+      <br/>
+      <h3>🌟 Key Highlights</h3>
+      <ul>
+        <li>🏆 <b>1,000+ Contributions</b> on GitHub active coding.</li>
+        <li>♟️ Developed <b>Premium-Chess Engine</b> multiplayer game hub.</li>
+        <li>⚡ Actively solving algorithm challenges on <b>LeetCode</b>.</li>
+        <li>🚀 Creator & administrator of the utilities hub <b>akshbuilds.tech</b>.</li>
+      </ul>
     </td>
     <td width="40%" valign="top" align="center">
       <br/>
-      <img src="assets/about-me-animation.svg?v=3" width="280" alt="About Me Developer Animation" />
+      <img src="assets/id-card.svg?v=3" width="280" alt="Developer ID Card Animation" />
     </td>
   </tr>
 </table>
@@ -184,94 +192,112 @@
 <!-- ========================================== -->
 <!-- FEATURED PROJECTS -->
 <!-- ========================================== -->
-<h3 align="center">🚀 Featured Projects (Live on <a href="https://akshbuilds.tech">akshbuilds.tech</a>)</h3>
+<h3 align="center">🚀 Featured Personal Projects</h3>
+<br />
 
-<table align="center" width="100%">
-  <tr>
-    <td width="50%" valign="top" align="center">
-      <br/>
-      <a href="https://forminne.netlify.app/" target="_blank">
-        <img src="https://raw.githubusercontent.com/Akshh-bhardwaj/akshbuilds/main/public/assets/project_video_dash_1775024426115.webp" width="100%" alt="Forminne OS" style="border-radius: 8px;" />
-      </a>
-      <h4>🖥️ Forminne - Custom Agent OS</h4>
-      <p>Built a custom concurrent model orchestration dashboard using a WebGL frontend and a custom Node/Python execution engine.</p>
+<table align="center" width="100%" border="0" cellpadding="10" cellspacing="0" style="background: transparent;">
+  <!-- Project 1: Premium Chess -->
+  <tr style="background: transparent;">
+    <td width="75%" valign="top">
+      <h4>♟️ Premium-Chess Engine</h4>
+      <p>A highly responsive multiplayer online chess platform featuring real-time interactive game states, predictive move processing, and room matchmaking.</p>
       <p>
         <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
-        <img src="https://img.shields.io/badge/OpenAI%20API-412991?style=flat-square&logo=openai&logoColor=white" alt="OpenAI" />
-      </p>
-      <p>
-        <a href="https://forminne.netlify.app/" target="_blank"><img src="https://img.shields.io/badge/Demo-Live-00f0ff?style=flat-square" alt="Live Demo" /></a>
-        <a href="https://github.com/Akshh-bhardwaj" target="_blank"><img src="https://img.shields.io/badge/Code-GitHub-8a2be2?style=flat-square" alt="GitHub" /></a>
-      </p>
-    </td>
-    <td width="50%" valign="top" align="center">
-      <br/>
-      <a href="https://phenomenal-muffin-646633.netlify.app/" target="_blank">
-        <img src="https://raw.githubusercontent.com/Akshh-bhardwaj/akshbuilds/main/public/assets/project_ai_tracker_1775024442510.webp" width="100%" alt="AI Model Tracking Hub" style="border-radius: 8px;" />
-      </a>
-      <h4>📊 AI Model Tracking Hub</h4>
-      <p>Designed and developed a low-latency monitoring dashboard rendering metrics under 50ms utilizing GraphQL.</p>
-      <p>
-        <img src="https://img.shields.io/badge/React%20Native-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React Native" />
-        <img src="https://img.shields.io/badge/GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white" alt="GraphQL" />
-      </p>
-      <p>
-        <a href="https://phenomenal-muffin-646633.netlify.app/" target="_blank"><img src="https://img.shields.io/badge/Demo-Live-00f0ff?style=flat-square" alt="Live Demo" /></a>
-        <a href="https://github.com/Akshh-bhardwaj" target="_blank"><img src="https://img.shields.io/badge/Code-GitHub-8a2be2?style=flat-square" alt="GitHub" /></a>
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top" align="center">
-      <br/>
-      <a href="https://premium-chess.onrender.com/" target="_blank">
-        <img src="https://raw.githubusercontent.com/Akshh-bhardwaj/akshbuilds/main/public/assets/project_premium_chess_1775025919148.webp" width="100%" alt="Premium Chess" style="border-radius: 8px;" />
-      </a>
-      <h4>♟️ Premium-Chess Engine</h4>
-      <p>Engineered a highly responsive multiplayer chess platform from scratch using Next.js, custom WebSockets, and predictive move algorithms.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" />
+        <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js" />
         <img src="https://img.shields.io/badge/WebSockets-010101?style=flat-square&logo=socketdotio&logoColor=white" alt="WebSockets" />
       </p>
       <p>
-        <a href="https://premium-chess.onrender.com/" target="_blank"><img src="https://img.shields.io/badge/Demo-Live-00f0ff?style=flat-square" alt="Live Demo" /></a>
-        <a href="https://github.com/Akshh-bhardwaj/Premium-Chess" target="_blank"><img src="https://img.shields.io/badge/Code-GitHub-8a2be2?style=flat-square" alt="GitHub" /></a>
+        <a href="https://github.com/Akshh-bhardwaj/Premium-Chess" target="_blank"><img src="https://img.shields.io/badge/Repository-Link-00f0ff?style=flat-square&logo=github" alt="Repo Link" /></a>
+        <a href="https://premium-chess.onrender.com/" target="_blank"><img src="https://img.shields.io/badge/Live_Demo-Link-ff0055?style=flat-square&logo=render&logoColor=white" alt="Live Demo" /></a>
       </p>
     </td>
-    <td width="50%" valign="top" align="center">
-      <br/>
-      <a href="https://phenomenal-muffin-646633.netlify.app/" target="_blank">
-        <img src="https://raw.githubusercontent.com/Akshh-bhardwaj/akshbuilds/main/public/assets/project_chatbot_1775025903371.webp" width="100%" alt="Agentic RAG Assistant" style="border-radius: 8px;" />
-      </a>
-      <h4>🤖 Document RAG Assistant</h4>
-      <p>Developed a document extraction system utilizing custom vector embeddings, semantic chunking algorithms, and multi-agent flows.</p>
-      <p>
-        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
-        <img src="https://img.shields.io/badge/LangChain-1C3C3A?style=flat-square&logo=langchain&logoColor=white" alt="LangChain" />
-      </p>
-      <p>
-        <a href="https://phenomenal-muffin-646633.netlify.app/" target="_blank"><img src="https://img.shields.io/badge/Demo-Live-00f0ff?style=flat-square" alt="Live Demo" /></a>
-        <a href="https://github.com/Akshh-bhardwaj" target="_blank"><img src="https://img.shields.io/badge/Code-GitHub-8a2be2?style=flat-square" alt="GitHub" /></a>
-      </p>
+    <td width="25%" align="center" valign="middle">
+      <img src="assets/project-chess.svg?v=3" width="100" alt="Chess Animation" />
     </td>
   </tr>
-  <tr>
-    <td colspan="2" align="center" valign="top">
-      <br/>
-      <div align="center" style="max-width: 500px;">
-        <a href="https://github.com/Akshh-bhardwaj" target="_blank">
-          <img src="https://raw.githubusercontent.com/Akshh-bhardwaj/akshbuilds/main/public/assets/project_backend_api_1775025512690.webp" width="100%" alt="Secure Fintech Backend" style="border-radius: 8px;" />
-        </a>
-        <h4>🔒 Secure Fintech Backend</h4>
-        <p>Designed and implemented an OWASP-compliant API routing thousands of concurrent financial requests to a PostgreSQL database.</p>
-        <p>
-          <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js" />
-          <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-        </p>
-        <p>
-          <a href="https://github.com/Akshh-bhardwaj" target="_blank"><img src="https://img.shields.io/badge/Code-GitHub-8a2be2?style=flat-square" alt="GitHub" /></a>
-        </p>
-      </div>
+
+  <!-- Divider Line -->
+  <tr style="background: transparent;"><td colspan="2"><hr style="border: 0; border-top: 1px solid rgba(255,255,255,0.06);" /></td></tr>
+
+  <!-- Project 2: Smart City Analytics -->
+  <tr style="background: transparent;">
+    <td width="75%" valign="top">
+      <h4>🏙️ Smart City Analytics</h4>
+      <p>Interactive dashboard modeling urban datasets (utility grids, vehicle flow, environmental loads) for smart city optimization.</p>
+      <p>
+        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+        <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
+        <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+      </p>
+      <p>
+        <a href="https://github.com/Akshh-bhardwaj/SmartCityAnalytics" target="_blank"><img src="https://img.shields.io/badge/Repository-Link-00f0ff?style=flat-square&logo=github" alt="Repo Link" /></a>
+      </p>
+    </td>
+    <td width="25%" align="center" valign="middle">
+      <img src="assets/project-city.svg?v=3" width="100" alt="City Animation" />
+    </td>
+  </tr>
+
+  <!-- Divider Line -->
+  <tr style="background: transparent;"><td colspan="2"><hr style="border: 0; border-top: 1px solid rgba(255,255,255,0.06);" /></td></tr>
+
+  <!-- Project 3: DSA Visualiser -->
+  <tr style="background: transparent;">
+    <td width="75%" valign="top">
+      <h4>👾 DSA Visualiser</h4>
+      <p>A web-based visual compiler rendering data structures and algorithm steps dynamically for better conceptual learning.</p>
+      <p>
+        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
+        <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5" />
+        <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3" />
+      </p>
+      <p>
+        <a href="https://github.com/Akshh-bhardwaj/DSA_visulaiser" target="_blank"><img src="https://img.shields.io/badge/Repository-Link-00f0ff?style=flat-square&logo=github" alt="Repo Link" /></a>
+      </p>
+    </td>
+    <td width="25%" align="center" valign="middle">
+      <img src="assets/dsa-visualizer.svg?v=3" width="100" alt="DSA Visualizer Animation" />
+    </td>
+  </tr>
+
+  <!-- Divider Line -->
+  <tr style="background: transparent;"><td colspan="2"><hr style="border: 0; border-top: 1px solid rgba(255,255,255,0.06);" /></td></tr>
+
+  <!-- Project 4: Retro C Games -->
+  <tr style="background: transparent;">
+    <td width="75%" valign="top">
+      <h4>🕹️ Retro C Games</h4>
+      <p>A compilation of interactive logic game engines (Snake, Tetris, etc.) rendered entirely in C console command lines.</p>
+      <p>
+        <img src="https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white" alt="C" />
+        <img src="https://img.shields.io/badge/Shell-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white" alt="Shell" />
+      </p>
+      <p>
+        <a href="https://github.com/Akshh-bhardwaj/c-games" target="_blank"><img src="https://img.shields.io/badge/Repository-Link-00f0ff?style=flat-square&logo=github" alt="Repo Link" /></a>
+      </p>
+    </td>
+    <td width="25%" align="center" valign="middle">
+      <img src="assets/project-games.svg?v=3" width="100" alt="Games Animation" />
+    </td>
+  </tr>
+
+  <!-- Divider Line -->
+  <tr style="background: transparent;"><td colspan="2"><hr style="border: 0; border-top: 1px solid rgba(255,255,255,0.06);" /></td></tr>
+
+  <!-- Project 5: Chatbot in C -->
+  <tr style="background: transparent;">
+    <td width="75%" valign="top">
+      <h4>💬 Chatbot-Grok in C</h4>
+      <p>Custom rule-based command line conversational bot engineered using file buffers and state parsing in native C.</p>
+      <p>
+        <img src="https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white" alt="C" />
+      </p>
+      <p>
+        <a href="https://github.com/Akshh-bhardwaj/chatbot-grrok-" target="_blank"><img src="https://img.shields.io/badge/Repository-Link-00f0ff?style=flat-square&logo=github" alt="Repo Link" /></a>
+      </p>
+    </td>
+    <td width="25%" align="center" valign="middle">
+      <img src="assets/about-me-animation.svg?v=3" width="100" alt="Chatbot Animation" />
     </td>
   </tr>
 </table>

@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 440" width="100%" height="100%" style="background: transparent; font-family: 'Outfit', 'Inter', system-ui, sans-serif;">
+  <defs>
+    <!-- Cyber Punk Linear Gradients -->
+    <linearGradient id="cyber-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f0ff" />
+      <stop offset="50%" stop-color="#8a2be2" />
+      <stop offset="100%" stop-color="#ff0055" />
+    </linearGradient>
+    <linearGradient id="strap-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#111111" />
+      <stop offset="100%" stop-color="#8a2be2" />
+    </linearGradient>
+    
+    <!-- Neon Drop Shadow Filter -->
+    <filter id="neon-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    /* Swaying pendulum swinging animation */
+    @keyframes sway {
+      0%, 100% { transform: rotate(-4deg); }
+      50% { transform: rotate(4deg); }
+    }
+    /* Pulsing online status indicator */
+    @keyframes pulse {
+      0%, 100% { opacity: 0.3; }
+      50% { opacity: 1; }
+    }
+    
+    .swinging-group {
+      animation: sway 6s ease-in-out infinite;
+      transform-origin: 160px 15px;
+    }
+    .pulse-dot {
+      animation: pulse 2s infinite;
+      fill: #00ff88;
+    }
+    .floating-card {
+      filter: drop-shadow(0px 15px 20px rgba(0,0,0,0.65));
+    }
+  </style>
+
+  <!-- Lanyard Clip Hook (Anchor point at top) -->
+  <circle cx="160" cy="15" r="5" fill="#444" />
+  <circle cx="160" cy="15" r="2" fill="#111" />
+
+  <!-- Lanyard Strap (Lines from clip to ID card holder) -->
+  <g class="swinging-group">
+    <!-- Hanging Strap Lines -->
+    <path d="M 158 15 L 140 85 M 162 15 L 180 85" stroke="url(#strap-grad)" stroke-width="3" fill="none" opacity="0.8" />
+    <!-- Metal Clip Ring -->
+    <rect x="145" y="80" width="30" height="12" rx="3" fill="#888" stroke="#555" stroke-width="1" />
+    <circle cx="160" cy="86" r="3" fill="#333" />
+    
+    <!-- ID Card Structure -->
+    <g class="floating-card" transform="translate(0, 0)">
+      <!-- Main Outer Card Body -->
+      <rect x="70" y="92" width="180" height="280" rx="15" fill="#06030c" stroke="url(#cyber-grad)" stroke-width="2" />
+      
+      <!-- Card Gloss Header -->
+      <path d="M 72 107 Q 72 94 85 94 L 235 94 Q 248 94 248 107 L 248 120 L 72 120 Z" fill="#0f091f" />
+      <text x="160" y="108" fill="#8a2be2" font-size="8" font-weight="900" letter-spacing="2" text-anchor="middle">DEVELOPER ACCESS</text>
+
+      <!-- Glassmorphic Overlay Pane -->
+      <rect x="80" y="128" width="160" height="234" rx="10" fill="#ffffff" fill-opacity="0.02" stroke="#ffffff" stroke-opacity="0.08" stroke-width="1" />
+
+      <!-- Avatar Photo Box -->
+      <circle cx="160" cy="180" r="38" fill="#0f091f" stroke="url(#cyber-grad)" stroke-width="1.5" />
+      <!-- Cyber Hacker Avatar Drawing -->
+      <!-- Head -->
+      <circle cx="160" cy="174" r="16" fill="#1e133a" />
+      <!-- Shoulders -->
+      <path d="M 132 208 Q 132 195 160 195 Q 188 195 188 208 Z" fill="#2d1d57" />
+      <!-- Cyber Visor / Glow -->
+      <rect x="148" y="168" width="24" height="6" rx="2" fill="#00f0ff" filter="url(#neon-glow)" />
+
+      <!-- User Information -->
+      <!-- Name -->
+      <text x="160" y="244" fill="#00f0ff" font-size="14" font-weight="800" text-anchor="middle" letter-spacing="0.5" filter="url(#neon-glow)">AKSHIT SHARMA</text>
+      <!-- Username -->
+      <text x="160" y="258" fill="#888899" font-size="9" font-weight="700" text-anchor="middle">@Akshh-bhardwaj</text>
+      
+      <!-- Horizontal Divider -->
+      <line x1="90" y1="272" x2="230" y2="272" stroke="#ffffff" stroke-opacity="0.08" />
+
+      <!-- Stats / Details Inside Card -->
+      <g transform="translate(95, 290)" font-size="9" font-weight="700">
+        <!-- Row 1: Role -->
+        <text x="0" y="0" fill="#8a2be2">ROLE:</text>
+        <text x="50" y="0" fill="#ffffff">FULL STACK DEV</text>
+        
+        <!-- Row 2: Status -->
+        <text x="0" y="15" fill="#8a2be2">STATUS:</text>
+        <!-- Online Pulsing dot -->
+        <circle cx="54" cy="12" r="3.5" class="pulse-dot" />
+        <text x="64" y="15" fill="#ffffff">ONLINE</text>
+        
+        <!-- Row 3: Skill -->
+        <text x="0" y="30" fill="#8a2be2">LEVEL:</text>
+        <text x="50" y="30" fill="#00f0ff" filter="url(#neon-glow)">CORE ENG // 1</text>
+      </g>
+
+      <!-- Barcode / Authenticator Graphic at bottom -->
+      <g transform="translate(90, 342)" opacity="0.6">
+        <rect x="0" y="0" width="3" height="12" fill="#ffffff" />
+        <rect x="5" y="0" width="1" height="12" fill="#ffffff" />
+        <rect x="8" y="0" width="2" height="12" fill="#ffffff" />
+        <rect x="12" y="0" width="4" height="12" fill="#ffffff" />
+        <rect x="18" y="0" width="1" height="12" fill="#ffffff" />
+        <rect x="21" y="0" width="3" height="12" fill="#ffffff" />
+        <rect x="26" y="0" width="1" height="12" fill="#ffffff" />
+        <rect x="29" y="0" width="4" height="12" fill="#ffffff" />
+        <rect x="35" y="0" width="2" height="12" fill="#ffffff" />
+        <rect x="39" y="0" width="1" height="12" fill="#ffffff" />
+        <rect x="42" y="0" width="3" height="12" fill="#ffffff" />
+        <rect x="47" y="0" width="1" height="12" fill="#ffffff" />
+        <rect x="50" y="0" width="4" height="12" fill="#ffffff" />
+        <rect x="56" y="0" width="2" height="12" fill="#ffffff" />
+        <rect x="60" y="0" width="1" height="12" fill="#ffffff" />
+        <rect x="63" y="0" width="3" height="12" fill="#ffffff" />
+        <rect x="68" y="0" width="2" height="12" fill="#ffffff" />
+        <rect x="72" y="0" width="4" height="12" fill="#ffffff" />
+        <rect x="78" y="0" width="1" height="12" fill="#ffffff" />
+        <rect x="81" y="0" width="3" height="12" fill="#ffffff" />
+        <rect x="86" y="0" width="1" height="12" fill="#ffffff" />
+        <rect x="89" y="0" width="4" height="12" fill="#ffffff" />
+        <rect x="95" y="0" width="2" height="12" fill="#ffffff" />
+        <rect x="99" y="0" width="1" height="12" fill="#ffffff" />
+        <rect x="102" y="0" width="3" height="12" fill="#ffffff" />
+        <rect x="107" y="0" width="2" height="12" fill="#ffffff" />
+        <rect x="111" y="0" width="4" height="12" fill="#ffffff" />
+        <rect x="117" y="0" width="1" height="12" fill="#ffffff" />
+        <rect x="120" y="0" width="3" height="12" fill="#ffffff" />
+        <rect x="125" y="0" width="1" height="12" fill="#ffffff" />
+        <rect x="128" y="0" width="4" height="12" fill="#ffffff" />
+        <rect x="134" y="0" width="2" height="12" fill="#ffffff" />
+        <rect x="138" y="0" width="1" height="12" fill="#ffffff" />
+      </g>
+    </g>
+  </g>
+</svg>
