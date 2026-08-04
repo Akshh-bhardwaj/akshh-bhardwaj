@@ -343,8 +343,8 @@
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=akshh-bhardwaj&show_icons=true&theme=tokyonight&hide_border=true" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=akshh-bhardwaj&layout=compact&theme=tokyonight&hide_border=true" width="48%" />
+  <img src="https://github-stats-extended.vercel.app/api?username=akshh-bhardwaj&show_icons=true&hide_border=true&hide_rank=true&bg_color=050505&title_color=00f0ff&text_color=ffffff&icon_color=8a2be2&border_color=050505&v=6" width="48%" />
+  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=akshh-bhardwaj&layout=compact&hide_border=true&bg_color=050505&title_color=00f0ff&text_color=ffffff&icon_color=8a2be2&border_color=050505&v=6" width="48%" />
 </p>
 
 <h3 align="center">💡 LeetCode Performance</h3>
