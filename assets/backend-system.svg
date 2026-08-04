@@ -1,0 +1,204 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 320" width="100%" height="100%" style="background: #040209; font-family: 'Outfit', 'Inter', system-ui, sans-serif;">
+  <defs>
+    <!-- Intense Glowing Filters -->
+    <filter id="glow-cyan" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <filter id="glow-pink" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <filter id="glow-green" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- Box Background -->
+    <linearGradient id="bg-box" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.06" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.01" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    /* CSS Keyframe Animations - Sped up flow rates */
+    @keyframes dash-flow {
+      to { stroke-dashoffset: -60; }
+    }
+    @keyframes pulse-node {
+      0%, 100% { transform: scale(1); opacity: 0.85; }
+      50% { transform: scale(1.08); opacity: 1; }
+    }
+    @keyframes led-blink {
+      0%, 100% { fill: #00f3ff; filter: drop-shadow(0 0 2px #00f3ff); }
+      50% { fill: #ff007f; filter: drop-shadow(0 0 4px #ff007f); }
+    }
+    @keyframes replica-blink {
+      0%, 100% { fill: #27c93f; opacity: 0.3; }
+      50% { fill: #27c93f; opacity: 1; filter: url(#glow-green); }
+    }
+
+    /* Assigning classes */
+    .flow-line-cyan {
+      stroke: #00f3ff;
+      stroke-dasharray: 8 16;
+      stroke-width: 3;
+      animation: dash-flow 1.2s linear infinite; /* Sped up flow */
+      filter: url(#glow-cyan);
+    }
+    .flow-line-pink {
+      stroke: #ff007f;
+      stroke-dasharray: 8 16;
+      stroke-width: 3;
+      animation: dash-flow 1.5s linear infinite; /* Sped up flow */
+      filter: url(#glow-pink);
+    }
+    .flow-line-green {
+      stroke: #27c93f;
+      stroke-dasharray: 6 12;
+      stroke-width: 2.5;
+      animation: dash-flow 1s linear infinite;
+      filter: url(#glow-green);
+    }
+    .server-rack {
+      transform-origin: center;
+      animation: pulse-node 3s ease-in-out infinite;
+    }
+    .led-indicator {
+      animation: led-blink 0.8s steps(2) infinite;
+    }
+    .replica-light {
+      animation: replica-blink 1.5s infinite;
+    }
+  </style>
+
+  <!-- Dashboard Panel Border -->
+  <rect x="15" y="15" width="770" height="290" rx="12" fill="url(#bg-box)" stroke="#ffffff" stroke-opacity="0.1" stroke-width="1.5" />
+
+  <!-- Title -->
+  <text x="30" y="45" fill="#a29bfe" font-size="12" font-weight="800" letter-spacing="1.5">&gt; SYSTEM_ARCH: LOW_LATENCY_DISTRIBUTED_PIPELINE</text>
+
+  <!-- Static Underlay Connections -->
+  <g stroke="#ffffff" stroke-opacity="0.08" stroke-width="1.5" fill="none">
+    <path d="M 60 160 L 180 160" />
+    <path d="M 180 160 L 270 100 L 330 100" />
+    <path d="M 180 160 L 330 160" />
+    <path d="M 180 160 L 270 220 L 330 220" />
+    <path d="M 390 100 L 460 70 L 530 70" />
+    <path d="M 390 160 L 460 70 L 530 70" />
+    <path d="M 390 160 L 460 215 L 530 215" />
+    <path d="M 390 220 L 460 215 L 530 215" />
+    <path d="M 590 215 L 670 215" />
+  </g>
+
+  <!-- Animated Active Flow Lines -->
+  <g fill="none">
+    <path d="M 60 160 L 180 160" class="flow-line-cyan" />
+    <path d="M 180 160 L 270 100 L 330 100" class="flow-line-cyan" style="animation-delay: -0.3s;" />
+    <path d="M 180 160 L 330 160" class="flow-line-cyan" style="animation-delay: -0.6s;" />
+    <path d="M 180 160 L 270 220 L 330 220" class="flow-line-cyan" style="animation-delay: -0.9s;" />
+    <path d="M 390 100 L 460 70 L 530 70" class="flow-line-cyan" style="animation-delay: 0.1s;" />
+    <path d="M 390 160 L 460 70 L 530 70" class="flow-line-pink" style="animation-delay: 0.5s;" />
+    <path d="M 390 160 L 460 215 L 530 215" class="flow-line-pink" style="animation-delay: 0s;" />
+    <path d="M 390 220 L 460 215 L 530 215" class="flow-line-pink" style="animation-delay: -0.4s;" />
+    <path d="M 590 215 L 670 215" class="flow-line-green" />
+  </g>
+
+  <!-- 1. Client / Traffic Gateway Node -->
+  <g transform="translate(60, 160)">
+    <circle cx="0" cy="0" r="16" fill="#121020" stroke="#00f3ff" stroke-width="2.5" filter="url(#glow-cyan)" />
+    <circle cx="0" cy="0" r="16" fill="none" stroke="#00f3ff" stroke-width="1.5">
+      <animate attributeName="r" values="16; 28; 16" dur="2.2s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.95; 0; 0.95" dur="2.2s" repeatCount="indefinite" />
+    </circle>
+    <text x="0" y="3" fill="#fff" font-size="9" font-weight="800" text-anchor="middle">API</text>
+    <text x="0" y="-22" fill="#888" font-size="9" font-weight="600" text-anchor="middle">GATEWAY</text>
+  </g>
+
+  <!-- 2. Load Balancer -->
+  <g transform="translate(180, 160)">
+    <polygon points="0,-16 14,-8 14,8 0,16 -14,8 -14,-8" fill="#121020" stroke="#ff007f" stroke-width="2.5" filter="url(#glow-pink)" />
+    <path d="M -6,-4 L 0,-8 L 6,-4" fill="none" stroke="#ff007f" stroke-width="1.5" />
+    <path d="M -6,4 L 0,8 L 6,4" fill="none" stroke="#ff007f" stroke-width="1.5" />
+    <text x="0" y="-22" fill="#888" font-size="9" font-weight="600" text-anchor="middle">HA_PROXY</text>
+  </g>
+
+  <!-- 3. Server Cluster -->
+  <g class="server-rack" transform="translate(330, 80)">
+    <rect x="0" y="0" width="60" height="35" rx="4" fill="#100f1c" stroke="#ffffff" stroke-opacity="0.15" stroke-width="1.5" />
+    <rect x="5" y="5" width="50" height="8" fill="#1b192e" rx="2" />
+    <circle cx="12" cy="9" r="2.5" class="led-indicator" />
+    <circle cx="20" cy="9" r="1.5" fill="#27c93f" />
+    <circle cx="26" cy="9" r="1.5" fill="#27c93f" />
+    <rect x="5" y="18" width="12" height="12" fill="#1b192e" rx="1" />
+    <rect x="22" y="18" width="12" height="12" fill="#1b192e" rx="1" />
+    <rect x="39" y="18" width="16" height="12" fill="#1b192e" rx="1" />
+    <text x="30" y="-8" fill="#888" font-size="8" font-weight="600" text-anchor="middle">NODE_01</text>
+  </g>
+
+  <g class="server-rack" transform="translate(330, 142)" style="animation-delay: -1s;">
+    <rect x="0" y="0" width="60" height="35" rx="4" fill="#100f1c" stroke="#ffffff" stroke-opacity="0.15" stroke-width="1.5" />
+    <rect x="5" y="5" width="50" height="8" fill="#1b192e" rx="2" />
+    <circle cx="12" cy="9" r="2.5" class="led-indicator" style="animation-delay: 0.2s;" />
+    <circle cx="20" cy="9" r="1.5" fill="#27c93f" />
+    <circle cx="26" cy="9" r="1.5" fill="#ffbd2e" />
+    <rect x="5" y="18" width="12" height="12" fill="#1b192e" rx="1" />
+    <rect x="22" y="18" width="12" height="12" fill="#1b192e" rx="1" />
+    <rect x="39" y="18" width="16" height="12" fill="#1b192e" rx="1" />
+    <text x="30" y="-8" fill="#888" font-size="8" font-weight="600" text-anchor="middle">NODE_02</text>
+  </g>
+
+  <g class="server-rack" transform="translate(330, 202)" style="animation-delay: -2s;">
+    <rect x="0" y="0" width="60" height="35" rx="4" fill="#100f1c" stroke="#ffffff" stroke-opacity="0.15" stroke-width="1.5" />
+    <rect x="5" y="5" width="50" height="8" fill="#1b192e" rx="2" />
+    <circle cx="12" cy="9" r="2.5" class="led-indicator" style="animation-delay: 0.4s;" />
+    <circle cx="20" cy="9" r="1.5" fill="#ff5f56" />
+    <circle cx="26" cy="9" r="1.5" fill="#27c93f" />
+    <rect x="5" y="18" width="12" height="12" fill="#1b192e" rx="1" />
+    <rect x="22" y="18" width="12" height="12" fill="#1b192e" rx="1" />
+    <rect x="39" y="18" width="16" height="12" fill="#1b192e" rx="1" />
+    <text x="30" y="-8" fill="#888" font-size="8" font-weight="600" text-anchor="middle">NODE_03</text>
+  </g>
+
+  <!-- 4. Redis Cache Panel -->
+  <g transform="translate(530, 45)">
+    <rect x="0" y="0" width="60" height="40" rx="4" fill="#121020" stroke="#00f3ff" stroke-width="1.5" filter="url(#glow-cyan)" />
+    <line x1="12" y1="12" x2="48" y2="12" stroke="#00f3ff" stroke-width="3.5" stroke-linecap="round" opacity="0.8" />
+    <line x1="12" y1="20" x2="38" y2="20" stroke="#00f3ff" stroke-width="3.5" stroke-linecap="round" opacity="0.6" />
+    <line x1="12" y1="28" x2="44" y2="28" stroke="#00f3ff" stroke-width="3.5" stroke-linecap="round" opacity="0.9" />
+    <text x="30" y="-10" fill="#888" font-size="9" font-weight="600" text-anchor="middle">REDIS_CACHE</text>
+    <text x="66" y="24" fill="#00f3ff" font-size="8" font-family="monospace">Hit: 98%</text>
+  </g>
+
+  <!-- 5. Database (PostgreSQL Master) -->
+  <g transform="translate(530, 195)">
+    <rect x="0" y="0" width="60" height="40" rx="4" fill="#121020" stroke="#ff007f" stroke-width="1.5" filter="url(#glow-pink)" />
+    <ellipse cx="30" cy="12" rx="18" ry="4" fill="none" stroke="#ff007f" stroke-width="1.5" />
+    <ellipse cx="30" cy="20" rx="18" ry="4" fill="none" stroke="#ff007f" stroke-width="1.5" />
+    <path d="M 12 12 L 12 28 A 18 4 0 0 0 48 28 L 48 12" fill="none" stroke="#ff007f" stroke-width="1.5" />
+    <text x="30" y="-10" fill="#888" font-size="9" font-weight="600" text-anchor="middle">PG_SQL (M)</text>
+  </g>
+
+  <!-- 6. Database (PostgreSQL Replica) -->
+  <g transform="translate(670, 195)">
+    <rect x="0" y="0" width="60" height="40" rx="4" fill="#121020" stroke="#27c93f" stroke-width="1.2" />
+    <ellipse cx="30" cy="12" rx="18" ry="4" fill="none" stroke="#27c93f" stroke-width="1.2" />
+    <path d="M 12 12 L 12 28 A 18 4 0 0 0 48 28 L 48 12" fill="none" stroke="#27c93f" stroke-width="1.2" />
+    <circle cx="30" cy="24" r="3.5" class="replica-light" />
+    <text x="30" y="-10" fill="#888" font-size="9" font-weight="600" text-anchor="middle">PG_SQL (R)</text>
+    <text x="30" y="52" fill="#27c93f" font-size="8" font-family="monospace" text-anchor="middle">Sync: OK</text>
+  </g>
+</svg>

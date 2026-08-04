@@ -1,0 +1,196 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 320" width="100%" height="100%" style="background: #040209; font-family: 'Outfit', 'Inter', system-ui, sans-serif;">
+  <defs>
+    <!-- Extra intense neon glowing filters -->
+    <filter id="glow-cyan" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <filter id="glow-pink" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    
+    <!-- Gradients -->
+    <linearGradient id="edge-grad-left" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#00f3ff" />
+      <stop offset="100%" stop-color="#d000ff" />
+    </linearGradient>
+    <linearGradient id="edge-grad-right" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f3ff" />
+      <stop offset="100%" stop-color="#ff007f" />
+    </linearGradient>
+    <linearGradient id="bg-box" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.06" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.01" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    /* CSS Keyframe Animations - Sped up to 4.5s loop */
+    @keyframes pulse-node-50 {
+      0%, 100%, 30% { fill: #121020; stroke: #00f3ff; stroke-width: 1.5; filter: none; }
+      10%, 25% { fill: #00f3ff; fill-opacity: 0.25; stroke: #00f3ff; stroke-width: 3.5; filter: url(#glow-cyan); }
+    }
+    @keyframes pulse-node-25 {
+      0%, 100%, 10%, 65% { fill: #121020; stroke: #d000ff; stroke-width: 1.5; filter: none; }
+      35%, 60% { fill: #d000ff; fill-opacity: 0.25; stroke: #d000ff; stroke-width: 3.5; filter: url(#glow-cyan); }
+    }
+    @keyframes pulse-node-35 {
+      0%, 100%, 45%, 98% { fill: #121020; stroke: #ff007f; stroke-width: 1.5; filter: none; }
+      70%, 95% { fill: #ff007f; fill-opacity: 0.4; stroke: #ff007f; stroke-width: 4.5; filter: url(#glow-pink); transform: scale(1.15); transform-origin: 290px 220px; }
+    }
+    @keyframes highlight-edge-1 {
+      0%, 100%, 30% { stroke: #ffffff; stroke-opacity: 0.15; stroke-width: 1.5; }
+      10%, 28% { stroke: url(#edge-grad-left); stroke-opacity: 0.95; stroke-width: 3.5; }
+    }
+    @keyframes highlight-edge-2 {
+      0%, 100%, 10%, 65% { stroke: #ffffff; stroke-opacity: 0.15; stroke-width: 1.5; }
+      35%, 63% { stroke: url(#edge-grad-right); stroke-opacity: 0.95; stroke-width: 3.5; }
+    }
+    @keyframes search-target-ring {
+      0%, 70% { transform: scale(0.6); opacity: 0; }
+      75% { opacity: 0.95; }
+      90%, 100% { transform: scale(2.3); opacity: 0; }
+    }
+    @keyframes code-line-1 {
+      0%, 100%, 30%, 95% { fill: #555; font-weight: normal; }
+      5%, 25%, 80%, 90% { fill: #00f3ff; font-weight: bold; filter: drop-shadow(0 0 1px #00f3ff); }
+    }
+    @keyframes code-line-2 {
+      0%, 100%, 10%, 65% { fill: #555; font-weight: normal; }
+      32%, 60% { fill: #d000ff; font-weight: bold; filter: drop-shadow(0 0 1px #d000ff); }
+    }
+    @keyframes code-line-3 {
+      0%, 100%, 45%, 98% { fill: #555; font-weight: normal; }
+      68%, 93% { fill: #ff007f; font-weight: bold; filter: drop-shadow(0 0 1px #ff007f); }
+    }
+
+    /* Assigning classes */
+    .node-base {
+      transition: all 0.2s ease;
+    }
+    .node-50 { animation: pulse-node-50 4.5s infinite; }
+    .node-25 { animation: pulse-node-25 4.5s infinite; }
+    .node-35 { animation: pulse-node-35 4.5s infinite; }
+    .edge-1 { animation: highlight-edge-1 4.5s infinite; }
+    .edge-2 { animation: highlight-edge-2 4.5s infinite; }
+    .target-found-ring {
+      transform-origin: 290px 220px;
+      animation: search-target-ring 4.5s infinite;
+    }
+    
+    .code-l1 { animation: code-line-1 4.5s infinite; }
+    .code-l2 { animation: code-line-2 4.5s infinite; }
+    .code-l3 { animation: code-line-3 4.5s infinite; }
+  </style>
+
+  <!-- Dashboard Panel Border -->
+  <rect x="15" y="15" width="770" height="290" rx="12" fill="url(#bg-box)" stroke="#ffffff" stroke-opacity="0.1" stroke-width="1.5" />
+  
+  <!-- Left Side: BST Visualizer Tree (480px width) -->
+  <g transform="translate(10, 0)">
+    <text x="30" y="45" fill="#a29bfe" font-size="12" font-weight="800" letter-spacing="1.5">&gt; ALGORITHM_TRACE: BST_SEARCH(KEY=35)</text>
+
+    <!-- Tree Connections -->
+    <!-- Root (390, 80) to Left (240, 150) -->
+    <line x1="390" y1="80" x2="240" y2="150" class="edge-1" stroke="#fff" stroke-opacity="0.15" stroke-width="1.5" />
+    <!-- Root (390, 80) to Right (540, 150) -->
+    <line x1="390" y1="80" x2="540" y2="150" stroke="#fff" stroke-opacity="0.15" stroke-width="1.5" />
+
+    <!-- Left (240, 150) to Left-Left (140, 220) -->
+    <line x1="240" y1="150" x2="140" y2="220" stroke="#fff" stroke-opacity="0.15" stroke-width="1.5" />
+    <!-- Left (240, 150) to Left-Right (290, 220) -->
+    <line x1="240" y1="150" x2="290" y2="220" class="edge-2" stroke="#fff" stroke-opacity="0.15" stroke-width="1.5" />
+
+    <!-- Right (540, 150) to Right-Left (490, 220) -->
+    <line x1="540" y1="150" x2="490" y2="220" stroke="#fff" stroke-opacity="0.15" stroke-width="1.5" />
+    <!-- Right (540, 150) to Right-Right (640, 220) -->
+    <line x1="540" y1="150" x2="640" y2="220" stroke="#fff" stroke-opacity="0.15" stroke-width="1.5" />
+
+    <!-- Nodes Grid -->
+    <!-- Root node 50 -->
+    <g class="node-base">
+      <circle cx="390" cy="80" r="18" fill="#121020" class="node-50" />
+      <text x="390" y="84" fill="#fff" font-size="12" font-weight="700" text-anchor="middle">50</text>
+    </g>
+
+    <!-- Level 1 nodes: 25, 75 -->
+    <g class="node-base">
+      <circle cx="240" cy="150" r="18" fill="#121020" class="node-25" />
+      <text x="240" y="154" fill="#fff" font-size="12" font-weight="700" text-anchor="middle">25</text>
+    </g>
+    <g class="node-base">
+      <circle cx="540" cy="150" r="18" fill="#121020" stroke="#333" stroke-width="1.5" />
+      <text x="540" y="154" fill="#555" font-size="12" font-weight="700" text-anchor="middle">75</text>
+    </g>
+
+    <!-- Level 2 nodes: 12, 35, 60, 90 -->
+    <g class="node-base">
+      <circle cx="140" cy="220" r="18" fill="#121020" stroke="#333" stroke-width="1.5" />
+      <text x="140" y="224" fill="#555" font-size="12" font-weight="700" text-anchor="middle">12</text>
+    </g>
+    
+    <!-- Target node 35 -->
+    <g class="node-base">
+      <!-- Target Found Ripple Ring -->
+      <circle cx="290" cy="220" r="18" fill="none" stroke="#ff007f" stroke-width="3" class="target-found-ring" />
+      
+      <circle cx="290" cy="220" r="18" fill="#121020" class="node-35" />
+      <text x="290" y="224" fill="#fff" font-size="12" font-weight="700" text-anchor="middle">35</text>
+    </g>
+
+    <g class="node-base">
+      <circle cx="490" cy="220" r="18" fill="#121020" stroke="#333" stroke-width="1.5" />
+      <text x="490" y="224" fill="#555" font-size="12" font-weight="700" text-anchor="middle">60</text>
+    </g>
+    <g class="node-base">
+      <circle cx="640" cy="220" r="18" fill="#121020" stroke="#333" stroke-width="1.5" />
+      <text x="640" y="224" fill="#555" font-size="12" font-weight="700" text-anchor="middle">90</text>
+    </g>
+
+    <!-- Traversing Search Pointer -->
+    <circle cx="0" cy="0" r="8" fill="#00f3ff" filter="url(#glow-cyan)">
+      <animateMotion dur="4.5s" repeatCount="indefinite" path="M 390 80 L 390 80 Q 390 80 390 80 Z M 390 80 L 240 150 Q 240 150 240 150 Z M 240 150 L 290 220 Q 290 220 290 220 Z M 290 220 L 290 220 Q 290 220 290 220 Z" keyTimes="0; 0.1; 0.3; 0.35; 0.55; 0.6; 0.75; 0.95; 1" />
+    </circle>
+  </g>
+
+  <!-- Right Side: Code Exec Trace (300px width) -->
+  <g transform="translate(480, 0)">
+    <!-- Terminal Background -->
+    <rect x="10" y="40" width="280" height="240" rx="8" fill="#030106" fill-opacity="0.95" stroke="#ffffff" stroke-opacity="0.08" stroke-width="1" />
+    
+    <!-- Top Bar -->
+    <path d="M 10 48 Q 10 40 18 40 L 282 40 Q 290 40 290 48 L 290 65 L 10 65 Z" fill="#0d0a14" />
+    <circle cx="30" cy="52" r="3" fill="#ff5f56" />
+    <circle cx="40" cy="52" r="3" fill="#ffbd2e" />
+    <circle cx="50" cy="52" r="3" fill="#27c93f" />
+    <text x="70" y="56" fill="#888" font-size="10" font-family="monospace">bst_lookup.py</text>
+
+    <!-- Code Content -->
+    <g font-family="monospace" font-size="11" transform="translate(25, 90)" xml:space="preserve">
+      <text x="0" y="10" class="code-l1" fill="#555">def search(node, key):</text>
+      <text x="20" y="28" class="code-l1" fill="#555">if node is None or node.val == key:</text>
+      <text x="40" y="46" class="code-l1" fill="#555">return node</text>
+
+      <text x="20" y="74" class="code-l2" fill="#555">if key &lt; node.val:</text>
+      <text x="40" y="92" class="code-l2" fill="#555">return search(node.left, key)</text>
+
+      <text x="20" y="120" class="code-l3" fill="#555">else:</text>
+      <text x="40" y="138" class="code-l3" fill="#555">return search(node.right, key)</text>
+    </g>
+
+    <!-- Runtime Complexities panel -->
+    <g transform="translate(25, 250)" font-family="sans-serif">
+      <text x="0" y="10" fill="#888" font-size="10">TIME COMPLEXITY: <tspan fill="#00f3ff" font-weight="800">O(log N)</tspan></text>
+      <text x="140" y="10" fill="#888" font-size="10">SPACE: <tspan fill="#ff007f" font-weight="800">O(H)</tspan></text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="100%" height="100%" style="background: transparent;">
+  <defs>
+    <!-- Intense Cyberpunk Glow -->
+    <filter id="glow-cyan" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3.5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <filter id="glow-pink" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <linearGradient id="knight-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f3ff" />
+      <stop offset="50%" stop-color="#d000ff" />
+      <stop offset="100%" stop-color="#ff007f" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    @keyframes knight-float {
+      0%, 100% { transform: translateY(0px) rotate(0deg); }
+      50% { transform: translateY(-7px) rotate(1deg); }
+    }
+    @keyframes ring-pulse-1 {
+      0%, 100% { transform: scale(0.85) rotate(0deg); opacity: 0.3; }
+      50% { transform: scale(1.15) rotate(180deg); opacity: 0.85; }
+    }
+    @keyframes ring-pulse-2 {
+      0%, 100% { transform: scale(1.1) rotate(0deg); opacity: 0.6; }
+      50% { transform: scale(0.8) rotate(-180deg); opacity: 0.3; }
+    }
+    @keyframes particle-drift {
+      0% { transform: translateY(0px) translateX(0px); opacity: 0; }
+      50% { opacity: 0.8; }
+      100% { transform: translateY(-25px) translateX(5px); opacity: 0; }
+    }
+    .knight-group {
+      animation: knight-float 3.5s ease-in-out infinite;
+      transform-origin: 60px 60px;
+    }
+    .base-ring-1 {
+      animation: ring-pulse-1 4s ease-in-out infinite;
+      transform-origin: 60px 88px;
+    }
+    .base-ring-2 {
+      animation: ring-pulse-2 4s ease-in-out infinite;
+      transform-origin: 60px 88px;
+    }
+    .star-p1 { animation: particle-drift 2s ease-in-out infinite; transform-origin: 55px 75px; }
+    .star-p2 { animation: particle-drift 2.5s ease-in-out infinite; animation-delay: 0.7s; transform-origin: 65px 78px; }
+  </style>
+
+  <!-- Pulsating and counter-rotating base rings (perspective) -->
+  <ellipse cx="60" cy="88" rx="24" ry="8" fill="none" stroke="#ff007f" stroke-width="2.5" class="base-ring-1" filter="url(#glow-pink)" />
+  <ellipse cx="60" cy="88" rx="18" ry="6" fill="none" stroke="#00f3ff" stroke-width="1.5" class="base-ring-2" />
+
+  <!-- Drift particles -->
+  <circle cx="55" cy="75" r="1.5" fill="#00f3ff" class="star-p1" filter="url(#glow-cyan)" />
+  <circle cx="68" cy="78" r="1.2" fill="#ff007f" class="star-p2" filter="url(#glow-pink)" />
+  <circle cx="48" cy="82" r="1" fill="#fff" class="star-p1" style="animation-delay: 1.2s;" />
+
+  <!-- Floating Knight Chess Piece -->
+  <g class="knight-group">
+    <!-- Base plate -->
+    <path d="M 40 85 L 80 85 L 76 80 L 44 80 Z" fill="#090514" stroke="url(#knight-grad)" stroke-width="2" filter="url(#glow-cyan)" />
+    
+    <!-- Silhouette Body -->
+    <path d="M 45 80 C 45 70 50 65 52 58 C 50 56 46 54 44 50 C 44 46 48 42 54 44 C 54 40 58 32 68 34 C 74 36 76 44 74 52 C 72 60 74 72 70 80 Z" fill="#090514" stroke="url(#knight-grad)" stroke-width="2.5" filter="url(#glow-cyan)" />
+    
+    <!-- Mane details -->
+    <path d="M 68 34 C 62 36 60 42 60 48" fill="none" stroke="#ff007f" stroke-width="2" filter="url(#glow-pink)" />
+    
+    <!-- Eye (glowing cyan element) -->
+    <polygon points="63,45 66,45 64,48" fill="#00f3ff" filter="url(#glow-cyan)" />
+  </g>
+</svg>

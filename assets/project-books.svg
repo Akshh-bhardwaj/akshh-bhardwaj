@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="100%" height="100%" style="background: transparent;">
+  <defs>
+    <!-- Glowing filters -->
+    <filter id="glow-cyan" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3.5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <filter id="glow-pink" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <linearGradient id="book-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d000ff" />
+      <stop offset="50%" stop-color="#ff007f" />
+      <stop offset="100%" stop-color="#00f3ff" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    @keyframes float-dust {
+      0% { transform: translateY(0px) scale(0.6); opacity: 0; }
+      50% { opacity: 0.8; }
+      100% { transform: translateY(-28px) scale(1.2); opacity: 0; }
+    }
+    @keyframes page-flutter-left {
+      0%, 100% { transform: rotate(0deg) skewY(0deg); }
+      50% { transform: rotate(-3deg) skewY(-2deg); }
+    }
+    @keyframes page-flutter-right {
+      0%, 100% { transform: rotate(0deg) skewY(0deg); }
+      50% { transform: transform: rotate(3deg) skewY(2deg); }
+    }
+    @keyframes node-pulse {
+      0%, 100% { opacity: 0.3; transform: scale(0.8); }
+      50% { opacity: 1; transform: scale(1.2); }
+    }
+    .dust-p1 { animation: float-dust 2.2s ease-in-out infinite; transform-origin: 60px 50px; }
+    .dust-p2 { animation: float-dust 2.6s ease-in-out infinite; animation-delay: 0.8s; transform-origin: 45px 45px; }
+    .dust-p3 { animation: float-dust 1.8s ease-in-out infinite; animation-delay: 0.4s; transform-origin: 75px 40px; }
+    .book-left { animation: page-flutter-left 2.5s ease-in-out infinite; transform-origin: 60px 75px; }
+    .book-right { animation: page-flutter-right 2.5s ease-in-out infinite; animation-delay: -1.25s; transform-origin: 60px 75px; }
+    .network-node { animation: node-pulse 2s ease-in-out infinite; transform-origin: 85px 35px; }
+  </style>
+
+  <!-- Connection network mesh links (representing recommendation vectors) -->
+  <g opacity="0.4">
+    <line x1="60" y1="58" x2="85" y2="35" stroke="#00f3ff" stroke-width="1" stroke-dasharray="2 2" />
+    <line x1="60" y1="58" x2="35" y2="30" stroke="#ff007f" stroke-width="1" stroke-dasharray="2 2" />
+    <line x1="35" y1="30" x2="85" y2="35" stroke="#ffffff" stroke-width="0.5" stroke-opacity="0.2" />
+  </g>
+
+  <!-- Recommendation Data Node Points -->
+  <circle cx="85" cy="35" r="3" fill="#00f3ff" class="network-node" filter="url(#glow-cyan)" />
+  <circle cx="35" cy="30" r="2.5" fill="#ff007f" class="network-node" style="animation-delay: -1s;" filter="url(#glow-pink)" />
+
+  <!-- Data particles rising from book -->
+  <circle cx="60" cy="50" r="2.2" fill="#00f3ff" class="dust-p1" filter="url(#glow-cyan)" />
+  <circle cx="48" cy="46" r="1.5" fill="#ff007f" class="dust-p2" filter="url(#glow-pink)" />
+  <circle cx="72" cy="42" r="2" fill="#fff" class="dust-p3" />
+
+  <!-- Isometric Glowing Book -->
+  <!-- Spine -->
+  <line x1="60" y1="58" x2="60" y2="78" stroke="#ff007f" stroke-width="3.5" filter="url(#glow-pink)" />
+
+  <!-- Left Page -->
+  <path d="M 60 58 C 45 52 35 54 25 58 L 25 78 C 35 74 45 72 60 78 Z" fill="#0a0512" stroke="url(#book-grad)" stroke-width="2.2" class="book-left" filter="url(#glow-pink)" />
+  <!-- Left Page inner text lines -->
+  <path d="M 52 64 C 45 61 38 62 32 64 M 52 70 C 45 67 38 68 32 70" fill="none" stroke="#00f3ff" stroke-width="1.2" stroke-linecap="round" opacity="0.6" filter="url(#glow-cyan)" />
+
+  <!-- Right Page -->
+  <path d="M 60 58 C 75 52 85 54 95 58 L 95 78 C 85 74 75 72 60 78 Z" fill="#0a0512" stroke="url(#book-grad)" stroke-width="2.2" class="book-right" filter="url(#glow-pink)" />
+  <!-- Right Page inner text lines -->
+  <path d="M 68 64 C 75 61 82 62 88 64 M 68 70 C 75 67 82 68 88 70" fill="none" stroke="#00f3ff" stroke-width="1.2" stroke-linecap="round" opacity="0.6" filter="url(#glow-cyan)" />
+</svg>

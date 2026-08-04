@@ -1,0 +1,221 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 320" width="100%" height="100%" style="background: #040209; font-family: 'Outfit', 'Inter', system-ui, sans-serif;">
+  <defs>
+    <!-- Intense Glow effects -->
+    <filter id="glow-cyan" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <filter id="glow-pink" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- Gradients -->
+    <linearGradient id="bg-box" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.06" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.01" />
+    </linearGradient>
+    <linearGradient id="bar-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f3ff" />
+      <stop offset="100%" stop-color="#d000ff" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    /* CSS Animations - Sped up to 6s loop */
+    @keyframes cursor-movement {
+      0%, 100% { transform: translate(300px, 200px); }
+      20% { transform: translate(450px, 80px); }      
+      28% { transform: translate(450px, 80px) scale(0.85); } 
+      30% { transform: translate(450px, 80px); }
+      50% { transform: translate(250px, 140px); }     
+      56% { transform: translate(250px, 140px) scale(0.85); } 
+      60% { transform: translate(250px, 140px); }
+      80% { transform: translate(300px, 200px); }
+    }
+    @keyframes theme-toggle-btn {
+      0%, 100%, 25% { transform: translateX(0px); fill: #555; }
+      28%, 98% { transform: translateX(12px); fill: #00f3ff; }
+    }
+    @keyframes theme-switch-bg {
+      0%, 100%, 25% { fill: #1b192e; stroke: #333; }
+      28%, 98% { fill: #121020; stroke: #00f3ff; }
+    }
+    @keyframes canvas-theme-shift {
+      0%, 100%, 25% { fill: #0a0815; stroke: #ffffff; stroke-opacity: 0.05; }
+      28%, 98% { fill: #0c0d21; stroke: #00f3ff; stroke-opacity: 0.2; }
+    }
+    @keyframes widget-glow-pulse {
+      0%, 100%, 25% { stroke: #333; filter: none; }
+      28%, 98% { stroke: #00f3ff; filter: url(#glow-cyan); stroke-width: 1.5; }
+    }
+    @keyframes code-anim {
+      0%, 100%, 25% { fill: #555; }
+      28%, 98% { fill: #00f3ff; font-weight: bold; filter: drop-shadow(0 0 1px #00f3ff); }
+    }
+    @keyframes draw-graph {
+      0%, 100% { stroke-dashoffset: 200; }
+      50% { stroke-dashoffset: 0; }
+    }
+    @keyframes cursor-pulse {
+      0%, 100% { opacity: 0.7; }
+      50% { opacity: 1; filter: drop-shadow(0 0 5px #00f3ff); }
+    }
+
+    /* Assigning Classes */
+    .mouse-cursor {
+      animation: cursor-movement 6s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+    }
+    .toggle-knob {
+      animation: theme-toggle-btn 6s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+    }
+    .toggle-slot {
+      animation: theme-switch-bg 6s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+    }
+    .canvas-bg {
+      animation: canvas-theme-shift 6s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+    }
+    .widget-accent {
+      animation: widget-glow-pulse 6s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+    }
+    .code-line {
+      animation: code-anim 6s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+    }
+    .animated-path {
+      stroke-dasharray: 200;
+      stroke-dashoffset: 200;
+      animation: draw-graph 4.5s ease-in-out infinite;
+    }
+  </style>
+
+  <!-- Panel Border -->
+  <rect x="15" y="15" width="770" height="290" rx="12" fill="url(#bg-box)" stroke="#ffffff" stroke-opacity="0.1" stroke-width="1.5" />
+
+  <!-- Title -->
+  <text x="30" y="45" fill="#a29bfe" font-size="12" font-weight="800" letter-spacing="1.5">&gt; DESIGN_ENGINE: INTERACTIVE_FRONTEND_STATE</text>
+
+  <!-- SIDEBAR -->
+  <g transform="translate(10, 0)">
+    <line x1="140" y1="50" x2="140" y2="280" stroke="#ffffff" stroke-opacity="0.08" stroke-width="1" />
+    <text x="30" y="70" fill="#666" font-size="9" font-weight="700" letter-spacing="1">COMPONENTS</text>
+
+    <!-- UI Items in Sidebar -->
+    <rect x="30" y="85" width="95" height="22" rx="4" fill="#121020" stroke="#fff" stroke-opacity="0.06" stroke-width="1" />
+    <text x="42" y="99" fill="#888" font-size="10" font-weight="600">Layout Grid</text>
+
+    <rect x="30" y="115" width="95" height="22" rx="4" fill="#121020" stroke="#fff" stroke-opacity="0.06" stroke-width="1" />
+    <text x="42" y="129" fill="#888" font-size="10" font-weight="600">Vector Chart</text>
+
+    <rect x="30" y="145" width="95" height="22" rx="4" fill="#121020" stroke="#fff" stroke-opacity="0.06" stroke-width="1" />
+    <text x="42" y="159" fill="#888" font-size="10" font-weight="600">CTA Button</text>
+
+    <rect x="30" y="175" width="95" height="22" rx="4" fill="#121020" stroke="#fff" stroke-opacity="0.06" stroke-width="1" />
+    <text x="42" y="189" fill="#888" font-size="10" font-weight="600">Form Input</text>
+
+    <!-- Code metrics badge -->
+    <g transform="translate(30, 220)">
+      <rect x="0" y="0" width="95" height="45" rx="6" fill="#0c0a15" stroke="#ff007f" stroke-opacity="0.3" stroke-width="1" />
+      <text x="8" y="15" fill="#ff007f" font-size="8" font-weight="800">FPS: 120 // 120</text>
+      <text x="8" y="27" fill="#888" font-size="8">INP Latency</text>
+      <text x="8" y="37" fill="#00f3ff" font-size="8" font-weight="800">12ms (P99)</text>
+    </g>
+  </g>
+
+  <!-- CANVAS -->
+  <g transform="translate(165, 0)">
+    <rect x="0" y="55" width="415" height="220" rx="8" fill="#08070e" stroke="#fff" stroke-opacity="0.08" stroke-width="1" />
+    <rect x="2" y="57" width="411" height="216" rx="6" class="canvas-bg" />
+
+    <text x="15" y="77" fill="#888" font-size="10" font-weight="600">Dashboard Canvas</text>
+    
+    <g transform="translate(290, 68)">
+      <text x="-65" y="10" fill="#888" font-size="9" font-weight="700">NEON STATE</text>
+      <rect x="0" y="0" width="26" height="12" rx="6" class="toggle-slot" />
+      <circle cx="6" cy="6" r="4" class="toggle-knob" />
+    </g>
+
+    <!-- Canvas Widgets -->
+    <!-- Widget 1: Vector Line Graph Widget -->
+    <g transform="translate(15, 95)">
+      <rect x="0" y="0" width="220" height="100" rx="6" fill="#121020" fill-opacity="0.75" stroke="#ffffff" stroke-opacity="0.08" stroke-width="1.2" class="widget-accent" />
+      <text x="12" y="20" fill="#fff" font-size="10" font-weight="700">REALTIME CONCURRENT VECTORS</text>
+      
+      <!-- Graph Lines -->
+      <path d="M 20 75 L 60 45 L 100 65 L 140 30 L 180 55 L 200 20" fill="none" stroke="#222" stroke-width="2" />
+      <path d="M 20 75 L 60 45 L 100 65 L 140 30 L 180 55 L 200 20" fill="none" stroke="url(#bar-grad)" stroke-width="2.5" class="animated-path" filter="url(#glow-cyan)" />
+    </g>
+
+    <!-- Widget 2: Status Progress Circle -->
+    <g transform="translate(250, 95)">
+      <rect x="0" y="0" width="150" height="100" rx="6" fill="#121020" fill-opacity="0.75" stroke="#ffffff" stroke-opacity="0.08" stroke-width="1.2" class="widget-accent" />
+      <text x="12" y="20" fill="#fff" font-size="10" font-weight="700">COMPILER STATE</text>
+      
+      <circle cx="75" cy="55" r="24" fill="none" stroke="#222" stroke-width="4.5" />
+      <circle cx="75" cy="55" r="24" fill="none" stroke="#ff007f" stroke-width="5" stroke-linecap="round" stroke-dasharray="150" stroke-dashoffset="40" filter="url(#glow-pink)" />
+      
+      <text x="75" y="58" fill="#fff" font-size="10" font-weight="800" text-anchor="middle">75%</text>
+    </g>
+
+    <!-- Widget 3: Wide Bottom Metric Card -->
+    <g transform="translate(15, 210)">
+      <rect x="0" y="0" width="385" height="50" rx="6" fill="#121020" fill-opacity="0.75" stroke="#ffffff" stroke-opacity="0.08" stroke-width="1.2" class="widget-accent" />
+      <line x1="128" y1="5" x2="128" y2="45" stroke="#fff" stroke-opacity="0.06" />
+      <line x1="256" y1="5" x2="256" y2="45" stroke="#fff" stroke-opacity="0.06" />
+      
+      <text x="15" y="22" fill="#666" font-size="8" font-weight="700">JS CORE MEMORY</text>
+      <text x="15" y="38" fill="#00f3ff" font-size="13" font-weight="700" font-family="monospace">1.28 MB</text>
+
+      <text x="143" y="22" fill="#666" font-size="8" font-weight="700">CSS COMPRESSION</text>
+      <text x="143" y="38" fill="#d000ff" font-size="13" font-weight="700" font-family="monospace">94.2%</text>
+
+      <text x="271" y="22" fill="#666" font-size="8" font-weight="700">DOM NODE DEPTH</text>
+      <text x="271" y="38" fill="#ff007f" font-size="13" font-weight="700" font-family="monospace">4 LEV</text>
+    </g>
+  </g>
+
+  <!-- PROPERTIES PANEL -->
+  <g transform="translate(595, 0)">
+    <line x1="-5" y1="50" x2="-5" y2="280" stroke="#ffffff" stroke-opacity="0.08" stroke-width="1" />
+    <text x="10" y="70" fill="#666" font-size="9" font-weight="700" letter-spacing="1">STATE INSPECTOR</text>
+
+    <!-- Code Block -->
+    <rect x="10" y="85" width="160" height="170" rx="6" fill="#030105" stroke="#ffffff" stroke-opacity="0.05" />
+    <g font-family="monospace" font-size="9" transform="translate(20, 100)">
+      <text x="0" y="10" fill="#888">.dashboard-card {</text>
+      
+      <text x="10" y="28" fill="#888">border-color:</text>
+      <text x="90" y="28" class="code-line" fill="#666">#00f3ff;</text>
+
+      <text x="10" y="46" fill="#888">box-shadow:</text>
+      <text x="10" y="60" class="code-line" fill="#666">0 0 12px neon;</text>
+
+      <text x="10" y="78" fill="#888">transition:</text>
+      <text x="10" y="92" fill="#a29bfe">all 0.3s ease;</text>
+      
+      <text x="10" y="110" fill="#888">backdrop-filter:</text>
+      <text x="10" y="124" fill="#a29bfe">blur(10px);</text>
+
+      <text x="0" y="142" fill="#888">}</text>
+    </g>
+
+    <!-- Selected indicator -->
+    <g transform="translate(10, 262)">
+      <rect x="0" y="0" width="8" height="8" rx="2" fill="#27c93f" />
+      <text x="14" y="8" fill="#27c93f" font-size="8" font-weight="700">COMPILER_ACTIVE</text>
+    </g>
+  </g>
+
+  <!-- MOUSE CURSOR -->
+  <g class="mouse-cursor" transform="translate(300, 200)">
+    <circle cx="0" cy="0" r="14" fill="#00f3ff" fill-opacity="0.15" stroke="#00f3ff" stroke-opacity="0.4" stroke-width="1" class="cursor-pulse" />
+    <polygon points="0,0 4,14 7,10 12,12 14,10 9,8 12,4" fill="#fff" stroke="#00f3ff" stroke-width="1.5" filter="url(#glow-cyan)" />
+  </g>
+</svg>

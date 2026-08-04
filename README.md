@@ -1,5 +1,9 @@
+<!-- ========================================== -->
+<!-- HERO HEADER SECTION -->
+<!-- ========================================== -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=050505&height=200&section=header&text=Akshit%20Sharma&fontSize=50&fontAlignY=40&fontColor=00f0ff&desc=AI%20Engineer%20%7C%20Full%20Stack%20Developer&descSize=20&descAlignY=62&descColor=8a2be2" width="100%" alt="Akshit Sharma Banner" />
+  <!-- Vercel-style animated banner with cache buster -->
+  <img src="assets/banner.svg?v=4" width="100%" alt="Akshit Sharma Hero Banner" />
 </p>
 
 # <p align="center">Namaste 🙏 I'm Akshit Sharma (aka AkshBuilds)</p>
@@ -29,6 +33,9 @@
 
 ---
 
+<!-- ========================================== -->
+<!-- WEBSITE METRICS SECTION -->
+<!-- ========================================== -->
 <h3 align="center">📊 Website Metrics & Stats (akshbuilds.tech)</h3>
 <table align="center" width="100%">
   <tr align="center">
@@ -53,19 +60,35 @@
 
 ---
 
-<h3>💫 About Me</h3>
-<p>
-  Hey! I am <b>Aksh</b>, building and sharing AI tools that help you save money and work smarter. My journey revolves around optimizing workflows, building high-performance applications, and exploring the bleeding edge of AI capabilities.
-</p>
-<ul>
-  <li>🌱 <b>Primary Focus</b>: Building AI Agents, orchestration pipelines, and RAG systems.</li>
-  <li>🌐 <b>Mission</b>: Replacing paid AI tools with open-source/free alternatives on <a href="https://akshbuilds.tech">akshbuilds.tech</a>.</li>
-  <li>⚡ <b>Daily Practice</b>: Solving Data Structures & Algorithms on <b>LeetCode</b>.</li>
-  <li>💬 <b>Languages</b>: Fluent in Python, JavaScript, TypeScript, C++, Java, and SQL.</li>
-</ul>
+<!-- ========================================== -->
+<!-- ABOUT ME & CONNECT -->
+<!-- ========================================== -->
+<table align="center" width="100%" border="0" cellpadding="10" cellspacing="0">
+  <tr>
+    <td width="60%" valign="top">
+      <h3>💫 About Me</h3>
+      <p>
+        Hey! I am <b>Aksh</b>, building and sharing AI tools that help you save money and work smarter. My journey revolves around optimizing workflows, building high-performance applications, and exploring the bleeding edge of AI capabilities.
+      </p>
+      <ul>
+        <li>🌱 <b>Primary Focus</b>: Building AI Agents, orchestration pipelines, and RAG systems.</li>
+        <li>🌐 <b>Mission</b>: Replacing paid AI tools with open-source/free alternatives on <a href="https://akshbuilds.tech">akshbuilds.tech</a>.</li>
+        <li>⚡ <b>Daily Practice</b>: Solving Data Structures & Algorithms on <b>LeetCode</b>.</li>
+        <li>💬 <b>Languages</b>: Fluent in Python, JavaScript, TypeScript, C++, Java, and SQL.</li>
+      </ul>
+    </td>
+    <td width="40%" valign="top" align="center">
+      <br/>
+      <img src="assets/about-me-animation.svg?v=3" width="280" alt="About Me Developer Animation" />
+    </td>
+  </tr>
+</table>
 
 ---
 
+<!-- ========================================== -->
+<!-- CORE FOCUS SHOWCASE -->
+<!-- ========================================== -->
 <h3 align="center">🛠️ Core Tech Stack</h3>
 <table align="center" width="100%">
   <tr>
@@ -90,6 +113,77 @@
 
 ---
 
+<!-- ========================================== -->
+<!-- INTERACTIVE CORE ENGINEERING TRACES -->
+<!-- ========================================== -->
+<h3 align="center">👾 Interactive Core Engineering Traces</h3>
+<br />
+
+<!-- 1. Algorithmic Trace -->
+<table align="center" width="100%">
+  <tr>
+    <td width="60%">
+      <h4>[0x01] / Algorithms &amp; Data Structures</h4>
+      <p>
+        Designing optimal logical flow configurations. The BST lookup model visualizes binary splits and logarithmic execution heights.
+      </p>
+      <ul>
+        <li>Time Complexity: Average $O(\log N)$</li>
+        <li>Space Complexity: Height bounds $O(H)$</li>
+        <li>Recursion call stack optimization</li>
+      </ul>
+    </td>
+    <td width="40%" align="center">
+      <img src="assets/dsa-visualizer.svg?v=2" width="100%" alt="BST Traversal Visualizer" />
+    </td>
+  </tr>
+</table>
+
+<!-- 2. Backend pipeline -->
+<table align="center" width="100%">
+  <tr>
+    <td width="40%" align="center">
+      <img src="assets/backend-system.svg?v=2" width="100%" alt="Backend Pipeline" />
+    </td>
+    <td width="60%">
+      <h4>[0x02] / Distributed Data mesh</h4>
+      <p>
+        Visualizing full stack data traffic: Load balancer distribution routing client requests across app servers, Redis cache hits, and PostgreSQL database replication syncs.
+      </p>
+      <ul>
+        <li>Event loop request processing</li>
+        <li>Sub-15ms p99 cache return rates</li>
+        <li>Write replication sync pipelines</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<!-- 3. Frontend compilation -->
+<table align="center" width="100%">
+  <tr>
+    <td width="60%">
+      <h4>[0x03] / Client UI State Compiler</h4>
+      <p>
+        Refining user state interactions, processing rendering layout shifts at high frames, and updating style properties.
+      </p>
+      <ul>
+        <li>GPU-accelerated CSS animations</li>
+        <li>Elimination of layout recalculation reflows</li>
+        <li>Zero-latency DOM state propagation</li>
+      </ul>
+    </td>
+    <td width="40%" align="center">
+      <img src="assets/frontend-mockup.svg?v=2" width="100%" alt="Frontend Designer UI" />
+    </td>
+  </tr>
+</table>
+
+---
+
+<!-- ========================================== -->
+<!-- FEATURED PROJECTS -->
+<!-- ========================================== -->
 <h3 align="center">🚀 Featured Projects (Live on <a href="https://akshbuilds.tech">akshbuilds.tech</a>)</h3>
 
 <table align="center" width="100%">
@@ -184,6 +278,9 @@
 
 ---
 
+<!-- ========================================== -->
+<!-- SERVICES -->
+<!-- ========================================== -->
 <h3 align="center">💼 Web Development Services</h3>
 <table align="center" width="100%">
   <tr>
@@ -210,6 +307,9 @@
 
 ---
 
+<!-- ========================================== -->
+<!-- DIAGNOSTICS & STATS -->
+<!-- ========================================== -->
 <h3 align="center">⚡ Developer Activity & Stats</h3>
 
 <p align="center">
@@ -230,6 +330,9 @@
 
 ---
 
+<!-- ========================================== -->
+<!-- PACMAN / SNAKE CONTRIBUTION CANVAS -->
+<!-- ========================================== -->
 <h3 align="center">🐍 GitHub Contributions Heatmap</h3>
 <p align="center">
   <picture>
@@ -239,6 +342,9 @@
   </picture>
 </p>
 
+<!-- ========================================== -->
+<!-- FOOTER GRAPHICS -->
+<!-- ========================================== -->
 <p align="center">
   <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%" />
 </p>

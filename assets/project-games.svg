@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="100%" height="100%" style="background: transparent;">
+  <defs>
+    <!-- Intense Cyberpunk Glow -->
+    <filter id="glow-cyan" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="3.5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <filter id="glow-green" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="3.5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <filter id="glow-pink" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="3.5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    /* Multi-step snake path loop (right 4 steps, down 3 steps, left 4 steps, up 3 steps) */
+    @keyframes snake-movement {
+      0%, 100% { transform: translate(0px, 0px); }
+      6.25%    { transform: translate(8px, 0px); }
+      12.5%    { transform: translate(16px, 0px); }
+      18.75%   { transform: translate(24px, 0px); }
+      25%      { transform: translate(32px, 0px); }
+      31.25%   { transform: translate(32px, 8px); }
+      37.5%    { transform: translate(32px, 16px); }
+      43.75%   { transform: translate(32px, 24px); }
+      50%      { transform: translate(24px, 24px); }
+      56.25%   { transform: translate(16px, 24px); }
+      62.5%    { transform: translate(8px, 24px); }
+      68.75%   { transform: translate(0px, 24px); }
+      75%      { transform: translate(0px, 16px); }
+      81.25%   { transform: translate(0px, 8px); }
+      87.5%    { transform: translate(0px, 0px); }
+    }
+    @keyframes food-flash {
+      0%, 100% { opacity: 0.1; }
+      50% { opacity: 1; filter: url(#glow-pink); }
+    }
+    @keyframes screen-flicker {
+      0%, 100% { opacity: 0.98; }
+      50% { opacity: 0.95; }
+    }
+    .snake-head {
+      animation: snake-movement 5s steps(1) infinite;
+    }
+    .food-target {
+      animation: food-flash 0.8s step-end infinite;
+    }
+    .terminal-body {
+      animation: screen-flicker 0.15s infinite;
+    }
+  </style>
+
+  <!-- Retro Terminal Console Frame -->
+  <rect x="15" y="25" width="90" height="70" rx="8" fill="#04020a" stroke="#ffffff" stroke-opacity="0.12" stroke-width="1.5" />
+  
+  <!-- Terminal Header / Title bar -->
+  <path d="M 15 33 L 15 33 Q 15 25 23 25 L 97 25 Q 105 25 105 33 L 105 37 L 15 37 Z" fill="#0d0a14" />
+  <circle cx="23" cy="31" r="1.5" fill="#ff5f56" />
+  <circle cx="29" cy="31" r="1.5" fill="#ffbd2e" />
+  <circle cx="35" cy="31" r="1.5" fill="#27c93f" />
+  <text x="47" y="34" fill="#666" font-size="6" font-family="monospace">arcade_game.c</text>
+
+  <!-- CRT Screen Flicker Container -->
+  <g class="terminal-body">
+    <!-- Grid scanline overlay (simulating CRT raster lines) -->
+    <line x1="15" y1="42" x2="105" y2="42" stroke="#fff" stroke-opacity="0.04" stroke-width="1" />
+    <line x1="15" y1="47" x2="105" y2="47" stroke="#fff" stroke-opacity="0.04" stroke-width="1" />
+    <line x1="15" y1="52" x2="105" y2="52" stroke="#fff" stroke-opacity="0.04" stroke-width="1" />
+    <line x1="15" y1="57" x2="105" y2="57" stroke="#fff" stroke-opacity="0.04" stroke-width="1" />
+    <line x1="15" y1="62" x2="105" y2="62" stroke="#fff" stroke-opacity="0.04" stroke-width="1" />
+    <line x1="15" y1="67" x2="105" y2="67" stroke="#fff" stroke-opacity="0.04" stroke-width="1" />
+    <line x1="15" y1="72" x2="105" y2="72" stroke="#fff" stroke-opacity="0.04" stroke-width="1" />
+    <line x1="15" y1="77" x2="105" y2="77" stroke="#fff" stroke-opacity="0.04" stroke-width="1" />
+    <line x1="15" y1="82" x2="105" y2="82" stroke="#fff" stroke-opacity="0.04" stroke-width="1" />
+    <line x1="15" y1="87" x2="105" y2="87" stroke="#fff" stroke-opacity="0.04" stroke-width="1" />
+    <line x1="15" y1="92" x2="105" y2="92" stroke="#fff" stroke-opacity="0.04" stroke-width="1" />
+
+    <!-- Flashing Food coordinates (Target to eat) -->
+    <rect x="74" y="50" width="5" height="5" fill="#ff007f" class="food-target" filter="url(#glow-pink)" />
+    <rect x="34" y="74" width="5" height="5" fill="#ff007f" class="food-target" style="animation-delay: -0.4s;" filter="url(#glow-pink)" />
+
+    <!-- Animated Snake Segment Sequence -->
+    <!-- Segments track the head path dynamically -->
+    <g class="snake-head">
+      <!-- Tail Segment -->
+      <rect x="26" y="50" width="5" height="5" fill="#00ff66" opacity="0.4" />
+      <!-- Body Segment -->
+      <rect x="32" y="50" width="5" height="5" fill="#00ff66" opacity="0.7" />
+      <!-- Head Segment -->
+      <rect x="38" y="50" width="5" height="5" fill="#00f3ff" filter="url(#glow-cyan)" />
+      <!-- Eye on head -->
+      <circle cx="41.5" cy="51.5" r="0.8" fill="#000" />
+    </g>
+  </g>
+</svg>
