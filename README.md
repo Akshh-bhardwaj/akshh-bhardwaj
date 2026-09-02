@@ -26,7 +26,7 @@
   <a href="https://www.linkedin.com/in/akshit-sharma-790601189/">
     <img src="https://img.shields.io/badge/LinkedIn-Connect-8a2be2?style=for-the-badge&logo=linkedin&logoColor=ffffff" alt="LinkedIn" />
   </a>
-  <a href="https://leetcode.com/Akshh2908/">
+  <a href="https://leetcode.com/Akshh_bhardwaj/">
     <img src="https://img.shields.io/badge/LeetCode-Solve-ffcc00?style=for-the-badge&logo=leetcode&logoColor=050505" alt="LeetCode" />
   </a>
 </div>
