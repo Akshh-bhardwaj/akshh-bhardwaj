@@ -349,8 +349,8 @@
 
 <h3 align="center">💡 LeetCode Performance</h3>
 <p align="center">
-  <a href="https://leetcode.com/Akshh2908/" target="_blank">
-    <img src="https://leetcard.jacoblin.cool/Akshh2908?theme=dark&font=Outfit&ext=heatmap" alt="LeetCode Stats" />
+  <a href="https://leetcode.com/Akshh_bhardwaj/" target="_blank">
+    <img src="https://leetcard.jacoblin.cool/Akshh_bhardwaj?theme=dark&font=Outfit&ext=heatmap" alt="LeetCode Stats" />
   </a>
 </p>
 
