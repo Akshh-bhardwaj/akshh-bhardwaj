@@ -45,7 +45,7 @@
 <!-- ========================================== -->
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Akshh-bhardwaj&theme=darkhub&no-frame=true&no-bg=true&margin-w=6&column=7" alt="GitHub Trophies" />
+  <img src="https://github-trophies.vercel.app/?username=Akshh-bhardwaj&theme=darkhub&no-frame=true&no-bg=true&margin-w=6&column=7" alt="GitHub Trophies" />
 </div>
 
 <br/>
@@ -185,7 +185,7 @@ const aksh = {
 <br/><br/>
 
 <!-- ACTIVITY GRAPH -->
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Akshh-bhardwaj&bg_color=0D1117&color=00f0ff&line=8a2be2&point=ff0055&area=true&hide_border=true" width="95%" />
+<img src="https://github-readme-activity-graph-two.vercel.app/graph?username=Akshh-bhardwaj&bg_color=0D1117&color=00f0ff&line=8a2be2&point=ff0055&area=true&hide_border=true" width="95%" />
 
 </div>
 
@@ -204,9 +204,9 @@ const aksh = {
 <br/>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Akshh-bhardwaj/Akshh-bhardwaj/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Akshh-bhardwaj/Akshh-bhardwaj/output/github-snake.svg" />
-  <img alt="Snake animation" src="https://raw.githubusercontent.com/Akshh-bhardwaj/Akshh-bhardwaj/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Akshh-bhardwaj/Akshh-bhardwaj/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Akshh-bhardwaj/Akshh-bhardwaj/output/github-contribution-grid-snake.svg" />
+  <img alt="Snake animation" src="https://raw.githubusercontent.com/Akshh-bhardwaj/Akshh-bhardwaj/output/github-contribution-grid-snake-dark.svg" />
 </picture>
 
 </div>
