@@ -45,7 +45,7 @@
 <!-- ========================================== -->
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Akshh-bhardwaj&theme=onestar&no-frame=true&no-bg=true&margin-w=6&column=7" alt="GitHub Trophies" />
+  <img src="https://github-profile-trophy.vercel.app/?username=Akshh-bhardwaj&theme=darkhub&no-frame=true&no-bg=true&margin-w=6&column=7" alt="GitHub Trophies" />
 </div>
 
 <br/>
@@ -150,10 +150,10 @@ const aksh = {
 <br/>
 
 <a href="https://github.com/Akshh-bhardwaj/Premium-Chess">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=Akshh-bhardwaj&repo=Premium-Chess&theme=react&bg_color=0D1117&hide_border=true&title_color=00f0ff&icon_color=8a2be2&text_color=c9d1d9" />
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=Akshh-bhardwaj&repo=Premium-Chess&theme=react&bg_color=0D1117&hide_border=true&title_color=00f0ff&icon_color=8a2be2&text_color=c9d1d9" />
 </a>
 <a href="https://github.com/Akshh-bhardwaj/Akshh-bhardwaj">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=Akshh-bhardwaj&repo=Akshh-bhardwaj&theme=react&bg_color=0D1117&hide_border=true&title_color=00f0ff&icon_color=8a2be2&text_color=c9d1d9" />
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=Akshh-bhardwaj&repo=Akshh-bhardwaj&theme=react&bg_color=0D1117&hide_border=true&title_color=00f0ff&icon_color=8a2be2&text_color=c9d1d9" />
 </a>
 
 <!-- 💡 Add more pinned repos below as you build them! -->
@@ -174,8 +174,8 @@ const aksh = {
 
 <br/>
 
-<img src="https://github-readme-stats-sigma-five.vercel.app/api?username=Akshh-bhardwaj&show_icons=true&theme=react&hide_border=true&bg_color=0D1117&title_color=00f0ff&icon_color=8a2be2&text_color=c9d1d9&ring_color=8a2be2" height="180" />
-<img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Akshh-bhardwaj&layout=compact&theme=react&hide_border=true&bg_color=0D1117&title_color=00f0ff&text_color=c9d1d9" height="180" />
+<img src="https://github-readme-stats-eight-theta.vercel.app/api?username=Akshh-bhardwaj&show_icons=true&theme=react&hide_border=true&bg_color=0D1117&title_color=00f0ff&icon_color=8a2be2&text_color=c9d1d9&ring_color=8a2be2" height="180" />
+<img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Akshh-bhardwaj&layout=compact&theme=react&hide_border=true&bg_color=0D1117&title_color=00f0ff&text_color=c9d1d9" height="180" />
 
 <br/><br/>
 
@@ -185,7 +185,7 @@ const aksh = {
 <br/><br/>
 
 <!-- ACTIVITY GRAPH -->
-<img src="https://github-readme-activity-graph-mnex.vercel.app/graph?username=Akshh-bhardwaj&bg_color=0D1117&color=00f0ff&line=8a2be2&point=ff0055&area=true&hide_border=true&area_color=8a2be233" width="95%" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Akshh-bhardwaj&bg_color=0D1117&color=00f0ff&line=8a2be2&point=ff0055&area=true&hide_border=true" width="95%" />
 
 </div>
 
