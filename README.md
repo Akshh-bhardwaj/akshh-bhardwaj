@@ -82,7 +82,7 @@ Hey! I'm **Aksh**, a full-stack developer dedicated to building high-performance
 </td>
     <td width="40%" valign="top" align="center">
       <br/>
-      <img src="assets/id-card.svg?v=3" width="280" alt="Developer ID Card Animation" />
+      <img src="assets/id-card.svg?v=7" width="280" alt="Developer ID Card Animation" />
     </td>
   </tr>
 </table>
