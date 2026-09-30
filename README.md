@@ -74,10 +74,10 @@ Hey! I'm **Aksh**, a full-stack developer dedicated to building high-performance
 <br/>
 
 ### 🌟 Key Highlights
-- 🏆 **1,000+** GitHub Contributions — active every day
-- ♟️ Built **Premium-Chess Engine** — multiplayer game hub
-- 🚀 Creator & admin of **akshbuilds.tech** utilities hub
-- 📊 **5k+** community members
+- 🖐️ Creator of **AirCanvas AI (jarvis-air-draw)** — real-time gesture tracking, 3D meshes & whiteboard
+- ♟️ Built **Premium-Chess Engine** — multiplayer game hub with custom bots & move validation
+- 🚀 Creator & admin of **akshbuilds.tech** full-stack utilities platform
+- 🏆 **1,000+** GitHub Contributions & consistent builder
 
 </td>
     <td width="40%" valign="top" align="center">
@@ -104,7 +104,7 @@ const aksh = {
     currentlyBuilding: "akshbuilds.tech v2.0 — Full Utilities Hub 🚀",
     learning: ["System Design", "DevOps", "Cloud (AWS/GCP)"],
     askMeAbout: ["React", "Next.js", "Node.js", "DSA", "System Design"],
-    funFact: "I mass mass solve algorithms for breakfast ☕",
+    funFact: "I mass solve algorithms for breakfast ☕",
     openToCollabOn: "Open-source web tools & developer utilities"
 };
 ```
@@ -149,14 +149,15 @@ const aksh = {
 
 <br/>
 
+<a href="https://github.com/Akshh-bhardwaj/jarvis-air-draw">
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=Akshh-bhardwaj&repo=jarvis-air-draw&theme=react&bg_color=0D1117&hide_border=true&title_color=00f0ff&icon_color=8a2be2&text_color=c9d1d9" />
+</a>
 <a href="https://github.com/Akshh-bhardwaj/Premium-Chess">
   <img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=Akshh-bhardwaj&repo=Premium-Chess&theme=react&bg_color=0D1117&hide_border=true&title_color=00f0ff&icon_color=8a2be2&text_color=c9d1d9" />
 </a>
-<a href="https://github.com/Akshh-bhardwaj/Akshh-bhardwaj">
-  <img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=Akshh-bhardwaj&repo=Akshh-bhardwaj&theme=react&bg_color=0D1117&hide_border=true&title_color=00f0ff&icon_color=8a2be2&text_color=c9d1d9" />
+<a href="https://github.com/Akshh-bhardwaj/akshbuilds">
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=Akshh-bhardwaj&repo=akshbuilds&theme=react&bg_color=0D1117&hide_border=true&title_color=00f0ff&icon_color=8a2be2&text_color=c9d1d9" />
 </a>
-
-<!-- 💡 Add more pinned repos below as you build them! -->
 
 </div>
 
