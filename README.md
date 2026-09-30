@@ -5,13 +5,13 @@
 
 <div align="center">
 
-<!-- HERO BANNER -->
-<img src="assets/banner.svg?v=5" width="100%" alt="Akshit Sharma Hero Banner" />
+<!-- 3D HERO BANNER -->
+<img src="assets/hero-3d-banner.gif" width="100%" alt="Akshit Sharma 3D Cybernetic Hero Banner" />
 
-<br/>
+<br/><br/>
 
 <!-- TYPING ANIMATION -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=3000&pause=1000&color=00F0FF&center=true&vCenter=true&multiline=true&width=700&height=70&lines=%F0%9F%9A%80+Full-Stack+Developer+%7C+System+Designer+%7C+Builder;Crafting+high-performance+digital+experiences+from+scratch" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=2800&pause=1000&color=00F0FF&center=true&vCenter=true&multiline=true&width=750&height=75&lines=%E2%9A%A1+Full-Stack+Engineer+%7C+Real-Time+Systems+%7C+Builder;Creator+of+AirCanvas+AI+%E2%80%A2+Premium-Chess+%E2%80%A2+akshbuilds;Crafting+scalable%2C+high-performance+software+from+scratch" alt="Typing SVG" />
 
 <br/>
 
